@@ -11,7 +11,7 @@ This guide is designed for mobile/desktop developers who want to integrate C/C++
 The Flutter command includes a built-in scaffold project for using C/C++ with Dart FFI examples.
 
 ```
-flutter create --template=plugin_ffi flutter_native_example --platforms android,ios,macos,windows,linux
+flutter create --template=plugin_ffi demo_library --platforms android,ios,macos,windows,linux
 ```
 
 This command creates a Flutter plugin package that contains the basic build scripts for adding C/C++ source code into Flutter packages.
