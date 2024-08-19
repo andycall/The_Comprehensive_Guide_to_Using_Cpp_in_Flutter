@@ -17,6 +17,6 @@ add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/../src" "${CMAKE_CURRENT_BINARY_DI
 set(flutter_native_example_bundled_libraries
   # Defined in ../src/CMakeLists.txt.
   # This can be changed to accommodate different builds.
-  $<TARGET_FILE:flutter_native_example>
+  $<TARGET_FILE:demo_library>
   PARENT_SCOPE
 )
