@@ -1,4 +1,3 @@
-
 import 'dart:async';
 import 'dart:ffi';
 import 'dart:io';
@@ -33,12 +32,12 @@ Future<int> sumAsync(int a, int b) async {
   return completer.future;
 }
 
-const String _libName = 'flutter_native_example';
+const String _libName = 'demo_library';
 
 /// The dynamic library in which the symbols for [FlutterNativeExampleBindings] can be found.
 final DynamicLibrary _dylib = () {
   if (Platform.isMacOS || Platform.isIOS) {
-    return DynamicLibrary.open('$_libName.framework/$_libName');
+    return DynamicLibrary.process();
   }
   if (Platform.isAndroid || Platform.isLinux) {
     return DynamicLibrary.open('lib$_libName.so');
@@ -50,8 +49,8 @@ final DynamicLibrary _dylib = () {
 }();
 
 /// The bindings to the native functions in [_dylib].
-final FlutterNativeExampleBindings _bindings = FlutterNativeExampleBindings(_dylib);
-
+final FlutterNativeExampleBindings _bindings =
+    FlutterNativeExampleBindings(_dylib);
 
 /// A request to compute `sum`.
 ///
