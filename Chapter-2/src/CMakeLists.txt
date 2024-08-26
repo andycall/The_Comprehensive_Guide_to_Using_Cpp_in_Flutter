@@ -4,7 +4,8 @@
 cmake_minimum_required(VERSION 3.19)
 
 set(CMAKE_OSX_DEPLOYMENT_TARGET 10.11)
-project(flutter_native_example_library VERSION 0.0.1 LANGUAGES C)
+project(flutter_native_example_library)
+set(CMAKE_CXX_STANDARD 17)
 
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
   set(CMAKE_OSX_ARCHITECTURES "x86_64;arm64")
@@ -12,11 +13,11 @@ endif()
 
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin" OR ${CMAKE_SYSTEM_NAME} MATCHES "iOS")
   add_library(demo_library STATIC
-    "flutter_native_example.c"
+    "flutter_native_example.cc"
   )
 else()
   add_library(demo_library SHARED
-    "flutter_native_example.c"
+    "flutter_native_example.cc"
   )
 endif()
 
