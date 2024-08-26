@@ -1,13 +1,4 @@
-# The Comprehensive Guide to Using C/C++ in Flutter
-
-This guide is designed for mobile/desktop developers who want to integrate C/C++ codes into their Flutter apps. It includes best practices for configuring build tools, debugging on mobile and desktop, using Dart FFI for bidirectional synchronous and asynchronous calls, handling complex data structures, performance optimization tips, listening for essential Dart VM callbacks on the C/C++ side, and some essential reminders for the Windows platform.
-
-[Chapter 1](./Chapter-1/)
-
-
-## License
-
-Creative Commons Attribution-NonCommercial 4.0 International License
+# Creative Commons Attribution-NonCommercial 4.0 International License
 
 Disclaimer: This is a human-readable summary of (and not a substitute for) the [license](http://creativecommons.org/licenses/by-nc/4.0/legalcode).
 

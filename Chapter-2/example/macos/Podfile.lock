@@ -1,0 +1,22 @@
+PODS:
+  - flutter_native_example (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - flutter_native_example (from `Flutter/ephemeral/.symlinks/plugins/flutter_native_example/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  flutter_native_example:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_native_example/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  flutter_native_example: 12260973c148da5defb9af0c9d4b9ec3e6c15f4f
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.15.2
