@@ -13,7 +13,7 @@ build_macos() {
   cmake -DCMAKE_BUILD_TYPE=$BUILD_TYPE -G "Unix Makefiles" -B $BASEDIR/cmake-build-macos -S $BASEDIR/
   cmake --build $BASEDIR/cmake-build-macos
 
-#  ln -fs "$OBJROOT/XCBuildData/build.db" "${BUILT_PRODUCTS_DIR}/build_phony"
+  ln -fs "$OBJROOT/XCBuildData/build.db" "${BUILT_PRODUCTS_DIR}/build_phony"
 }
 
 # Define the function for iOS build
@@ -23,7 +23,7 @@ build_ios() {
   cmake -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=$BASEDIR/ios-cmake/ios.toolchain.cmake -G "Xcode" -B $BASEDIR/cmake-build-ios -S $BASEDIR/
   cmake --build $BASEDIR/cmake-build-ios --config $BUILD_TYPE
 
-#  ln -fs "$OBJROOT/XCBuildData/build.db" "${BUILT_PRODUCTS_DIR}/build_phony"
+  ln -fs "$OBJROOT/XCBuildData/build.db" "${BUILT_PRODUCTS_DIR}/build_phony"
 }
 
 # Define the main function to call the appropriate build function
