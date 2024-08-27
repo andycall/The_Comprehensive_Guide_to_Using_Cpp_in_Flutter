@@ -7,7 +7,6 @@
 // They will block the Dart execution while running the native function, so
 // only do this for native functions which are guaranteed to be short-lived.
 FFI_PLUGIN_EXPORT int sum(int a, int b) {
-    assert(0);
     return a + b;
 }
 
@@ -23,6 +22,5 @@ FFI_PLUGIN_EXPORT int sum_long_running(int a, int b) {
 #else
   usleep(5000 * 1000);
 #endif
-  assert(0);
   return a + b;
 }

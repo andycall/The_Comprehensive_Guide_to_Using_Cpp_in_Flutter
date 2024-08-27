@@ -195,7 +195,6 @@
 				8B7C057CA2EF404AE1C275A2 /* Pods-RunnerTests.release.xcconfig */,
 				64A67278759D3AC20AE22915 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -580,6 +579,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Profile;
@@ -712,6 +712,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -732,6 +733,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

@@ -27,8 +27,8 @@ A new Flutter FFI plugin project.
     # First argument is relative path to the `rust` folder, second is name of rust library
     :script => 'bash "' + __dir__ + '/../src/build_ios_macos.sh" macos $CONFIGURATION',
     :execution_position=> :before_compile,
-    :input_files => ['${BUILT_PRODUCTS_DIR}/build_phony'],
-    :output_files => [__dir__ + "/../src/cmake-build-macos/libdemo_library.a"],
+   :input_files => ['${BUILT_PRODUCTS_DIR}/build_phony'],
+   :output_files => [__dir__ + "/../src/cmake-build-macos/libdemo_library.a"],
   }
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES',
