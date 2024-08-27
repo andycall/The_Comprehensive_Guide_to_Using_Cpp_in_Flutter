@@ -111,3 +111,43 @@ Make sure the debug type is set to "Dual (Java + Native)" mode:
 Now our C/C++ code can be developed and debugged in Android Studio:
 
 ![alt text](./imgs/android_studio_debugging.png)
+
+## Debugging C/C++ Code in Visual Studio
+
+Visual Studio on the Windows platform provides a robust developer experience for C/C++.
+
+Flutter projects use CMake to generate Visual Studio project templates.
+
+First, compile your Flutter app by running the following command:
+
+```bash
+flutter build windows --debug
+```
+
+This will generate the Visual Studio project workspace in the `<project_root>/example/build/windows/x64` directory. Open Visual Studio and load the `ALL_BUILD.vcproj` file from this location.
+
+![Visual Studio Project Location](./imgs/vs_location.png)
+
+Right-click on the solution title and select `Properties`:
+
+![Solution Properties](./imgs/config_solution.png)
+
+Change the `Single startup project` value to `flutter_native_example_example`:
+
+![Change Startup Project](./imgs/change_vs_solution.png)
+
+Open the C/C++ code files in the `demo_library` folder and set your breakpoints:
+
+![Set Breakpoints](./imgs/vs_breakpoints.png)
+
+Click on `Debug` -> `Start Debugging`:
+
+![Start Debugging](./imgs/vs_start_debugging.png)
+
+Now the debugger should be working:
+
+![Debugger in Action](./imgs/vs_debugging.png)
+
+## Next Chapter
+
+In the next chapter, we will focus on Dart FFI in Flutter apps, covering bidirectional synchronous and asynchronous calls, handling complex data structures, and performance optimization tips.
