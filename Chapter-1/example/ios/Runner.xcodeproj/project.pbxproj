@@ -19,6 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1BEAD9BC2C7DD4BA0068F5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEAD99D2C7DD4BA0068F5E0 /* example-app.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B8750AC1E448D83006669EE;
+			remoteInfo = "example-app";
+		};
+		1BEAD9C12C7DD4BA0068F5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEAD9572C7DD4BA0068F5E0 /* flutter_native_example_library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B0EAA619CDA4508814F89B3;
+			remoteInfo = demo_library;
+		};
 		331C8085294A63A400263BE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
@@ -46,6 +60,146 @@
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		15C42138572E9C1247A06B96 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BEAD8EE2C7DD4BA0068F5E0 /* workspace.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = workspace.xml; sourceTree = "<group>"; };
+		1BEAD8F12C7DD4BA0068F5E0 /* 7187679823f38a2a940e0043cdf9d637-common-args.resp */ = {isa = PBXFileReference; lastKnownFileType = text; path = "7187679823f38a2a940e0043cdf9d637-common-args.resp"; sourceTree = "<group>"; };
+		1BEAD8F22C7DD4BA0068F5E0 /* demo_library_libtool_dependency_info.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo_library_libtool_dependency_info.dat; sourceTree = "<group>"; };
+		1BEAD8F32C7DD4BA0068F5E0 /* demo_library.LinkFileList */ = {isa = PBXFileReference; lastKnownFileType = text; path = demo_library.LinkFileList; sourceTree = "<group>"; };
+		1BEAD8F42C7DD4BA0068F5E0 /* flutter_native_example.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = flutter_native_example.d; sourceTree = "<group>"; };
+		1BEAD8F52C7DD4BA0068F5E0 /* flutter_native_example.dia */ = {isa = PBXFileReference; lastKnownFileType = file; path = flutter_native_example.dia; sourceTree = "<group>"; };
+		1BEAD8F62C7DD4BA0068F5E0 /* flutter_native_example.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = flutter_native_example.o; sourceTree = "<group>"; };
+		1BEAD8FD2C7DD4BA0068F5E0 /* Script-BDBAB1A129E1EABE6CA111D1.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Script-BDBAB1A129E1EABE6CA111D1.sh"; sourceTree = "<group>"; };
+		1BEAD8FF2C7DD4BA0068F5E0 /* Script-B31509C5F434FE3CD42BF776.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Script-B31509C5F434FE3CD42BF776.sh"; sourceTree = "<group>"; };
+		1BEAD9032C7DD4BA0068F5E0 /* 41bc606e75e6186011edee8031e29af9 */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = 41bc606e75e6186011edee8031e29af9; sourceTree = "<group>"; };
+		1BEAD9042C7DD4BA0068F5E0 /* 119f477bd7919f57bf107b32fe81717d */ = {isa = PBXFileReference; lastKnownFileType = text; path = 119f477bd7919f57bf107b32fe81717d; sourceTree = "<group>"; };
+		1BEAD9052C7DD4BA0068F5E0 /* 7075eea6d3c43638bb37fe29b85a3aa9 */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = 7075eea6d3c43638bb37fe29b85a3aa9; sourceTree = "<group>"; };
+		1BEAD9062C7DD4BA0068F5E0 /* 36968e47d34bbd7391b8e2a7029d0e7c */ = {isa = PBXFileReference; lastKnownFileType = text; path = 36968e47d34bbd7391b8e2a7029d0e7c; sourceTree = "<group>"; };
+		1BEAD9082C7DD4BA0068F5E0 /* build-request.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "build-request.json"; sourceTree = "<group>"; };
+		1BEAD9092C7DD4BA0068F5E0 /* description.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = description.msgpack; sourceTree = "<group>"; };
+		1BEAD90A2C7DD4BA0068F5E0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		1BEAD90B2C7DD4BA0068F5E0 /* target-graph.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "target-graph.txt"; sourceTree = "<group>"; };
+		1BEAD90C2C7DD4BA0068F5E0 /* task-store.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "task-store.msgpack"; sourceTree = "<group>"; };
+		1BEAD90E2C7DD4BA0068F5E0 /* 41bc606e75e6186011edee8031e29af9 */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = 41bc606e75e6186011edee8031e29af9; sourceTree = "<group>"; };
+		1BEAD90F2C7DD4BA0068F5E0 /* 119f477bd7919f57bf107b32fe81717d */ = {isa = PBXFileReference; lastKnownFileType = text; path = 119f477bd7919f57bf107b32fe81717d; sourceTree = "<group>"; };
+		1BEAD9102C7DD4BA0068F5E0 /* 7075eea6d3c43638bb37fe29b85a3aa9 */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = 7075eea6d3c43638bb37fe29b85a3aa9; sourceTree = "<group>"; };
+		1BEAD9112C7DD4BA0068F5E0 /* 36968e47d34bbd7391b8e2a7029d0e7c */ = {isa = PBXFileReference; lastKnownFileType = text; path = 36968e47d34bbd7391b8e2a7029d0e7c; sourceTree = "<group>"; };
+		1BEAD9132C7DD4BA0068F5E0 /* build-request.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "build-request.json"; sourceTree = "<group>"; };
+		1BEAD9142C7DD4BA0068F5E0 /* description.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = description.msgpack; sourceTree = "<group>"; };
+		1BEAD9152C7DD4BA0068F5E0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		1BEAD9162C7DD4BA0068F5E0 /* target-graph.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "target-graph.txt"; sourceTree = "<group>"; };
+		1BEAD9172C7DD4BA0068F5E0 /* task-store.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "task-store.msgpack"; sourceTree = "<group>"; };
+		1BEAD9192C7DD4BA0068F5E0 /* build.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = build.db; sourceTree = "<group>"; };
+		1BEAD91C2C7DD4BA0068F5E0 /* 7187679823f38a2a940e0043cdf9d637-common-args.resp */ = {isa = PBXFileReference; lastKnownFileType = text; path = "7187679823f38a2a940e0043cdf9d637-common-args.resp"; sourceTree = "<group>"; };
+		1BEAD91D2C7DD4BA0068F5E0 /* CMakeCCompilerId.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = CMakeCCompilerId.d; sourceTree = "<group>"; };
+		1BEAD91E2C7DD4BA0068F5E0 /* CMakeCCompilerId.dia */ = {isa = PBXFileReference; lastKnownFileType = file; path = CMakeCCompilerId.dia; sourceTree = "<group>"; };
+		1BEAD91F2C7DD4BA0068F5E0 /* CMakeCCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCCompilerId.o; sourceTree = "<group>"; };
+		1BEAD9202C7DD4BA0068F5E0 /* CompilerIdC_dependency_info.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = CompilerIdC_dependency_info.dat; sourceTree = "<group>"; };
+		1BEAD9212C7DD4BA0068F5E0 /* CompilerIdC.LinkFileList */ = {isa = PBXFileReference; lastKnownFileType = text; path = CompilerIdC.LinkFileList; sourceTree = "<group>"; };
+		1BEAD9242C7DD4BA0068F5E0 /* all-product-headers.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "all-product-headers.yaml"; sourceTree = "<group>"; };
+		1BEAD9252C7DD4BA0068F5E0 /* CompilerIdC-all-non-framework-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CompilerIdC-all-non-framework-target-headers.hmap"; sourceTree = "<group>"; };
+		1BEAD9262C7DD4BA0068F5E0 /* CompilerIdC-all-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CompilerIdC-all-target-headers.hmap"; sourceTree = "<group>"; };
+		1BEAD9272C7DD4BA0068F5E0 /* CompilerIdC-generated-files.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CompilerIdC-generated-files.hmap"; sourceTree = "<group>"; };
+		1BEAD9282C7DD4BA0068F5E0 /* CompilerIdC-own-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CompilerIdC-own-target-headers.hmap"; sourceTree = "<group>"; };
+		1BEAD9292C7DD4BA0068F5E0 /* CompilerIdC-project-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CompilerIdC-project-headers.hmap"; sourceTree = "<group>"; };
+		1BEAD92A2C7DD4BA0068F5E0 /* CompilerIdC.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = CompilerIdC.hmap; sourceTree = "<group>"; };
+		1BEAD92B2C7DD4BA0068F5E0 /* empty-CompilerIdC.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "empty-CompilerIdC.plist"; sourceTree = "<group>"; };
+		1BEAD92C2C7DD4BA0068F5E0 /* Script-2C8FEB8E15DC1A1A00E56A5D.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Script-2C8FEB8E15DC1A1A00E56A5D.sh"; sourceTree = "<group>"; };
+		1BEAD9332C7DD4BA0068F5E0 /* 1a3e1f1958d6b299e6ec4096465d1068 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1a3e1f1958d6b299e6ec4096465d1068; sourceTree = "<group>"; };
+		1BEAD9342C7DD4BA0068F5E0 /* 1aa4c3bd253cfcf8358ab5d8d6ef28a3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1aa4c3bd253cfcf8358ab5d8d6ef28a3; sourceTree = "<group>"; };
+		1BEAD9352C7DD4BA0068F5E0 /* 2de6a04cdba79ed13580c47dfd70cc5f */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = 2de6a04cdba79ed13580c47dfd70cc5f; sourceTree = "<group>"; };
+		1BEAD9362C7DD4BA0068F5E0 /* 8bba4233626f64a7ea772bb94a08a1a9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8bba4233626f64a7ea772bb94a08a1a9; sourceTree = "<group>"; };
+		1BEAD9372C7DD4BA0068F5E0 /* 177becd055ce63eae4d9f1e7ec0ce515 */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = 177becd055ce63eae4d9f1e7ec0ce515; sourceTree = "<group>"; };
+		1BEAD9382C7DD4BA0068F5E0 /* f3bca8d0dcf769d1a415ff6379934b36 */ = {isa = PBXFileReference; lastKnownFileType = text; path = f3bca8d0dcf769d1a415ff6379934b36; sourceTree = "<group>"; };
+		1BEAD9392C7DD4BA0068F5E0 /* fd8314defc70a8778956f026c0ddfd19 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fd8314defc70a8778956f026c0ddfd19; sourceTree = "<group>"; };
+		1BEAD93B2C7DD4BA0068F5E0 /* build-request.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "build-request.json"; sourceTree = "<group>"; };
+		1BEAD93C2C7DD4BA0068F5E0 /* description.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = description.msgpack; sourceTree = "<group>"; };
+		1BEAD93D2C7DD4BA0068F5E0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		1BEAD93E2C7DD4BA0068F5E0 /* target-graph.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "target-graph.txt"; sourceTree = "<group>"; };
+		1BEAD93F2C7DD4BA0068F5E0 /* task-store.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "task-store.msgpack"; sourceTree = "<group>"; };
+		1BEAD9412C7DD4BA0068F5E0 /* build.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = build.db; sourceTree = "<group>"; };
+		1BEAD9432C7DD4BA0068F5E0 /* CMakeCCompilerId.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		1BEAD9442C7DD4BA0068F5E0 /* CompilerIdC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CompilerIdC.xcodeproj; sourceTree = "<group>"; };
+		1BEAD9452C7DD4BA0068F5E0 /* CompilerIdC.xctest */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CompilerIdC.xctest; sourceTree = "<group>"; };
+		1BEAD9462C7DD4BA0068F5E0 /* CompilerIdC.xctest.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = CompilerIdC.xctest.dSYM; sourceTree = "<group>"; };
+		1BEAD9482C7DD4BA0068F5E0 /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		1BEAD9492C7DD4BA0068F5E0 /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		1BEAD94A2C7DD4BA0068F5E0 /* CMakeSystem.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		1BEAD94D2C7DD4BA0068F5E0 /* cmake.check_cache */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		1BEAD94E2C7DD4BA0068F5E0 /* CMakeConfigureLog.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = CMakeConfigureLog.yaml; sourceTree = "<group>"; };
+		1BEAD94F2C7DD4BA0068F5E0 /* TargetDirectories.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		1BEAD9512C7DD4BA0068F5E0 /* ReRunCMake.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = ReRunCMake.make; sourceTree = "<group>"; };
+		1BEAD9532C7DD4BA0068F5E0 /* libdemo_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdemo_library.a; sourceTree = "<group>"; };
+		1BEAD9552C7DD4BA0068F5E0 /* cmake_install.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		1BEAD9562C7DD4BA0068F5E0 /* CMakeCache.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		1BEAD9572C7DD4BA0068F5E0 /* flutter_native_example_library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = flutter_native_example_library.xcodeproj; sourceTree = "<group>"; };
+		1BEAD95A2C7DD4BA0068F5E0 /* CMakeCCompilerId.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		1BEAD95B2C7DD4BA0068F5E0 /* CMakeCCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCCompilerId.o; sourceTree = "<group>"; };
+		1BEAD95D2C7DD4BA0068F5E0 /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		1BEAD95E2C7DD4BA0068F5E0 /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		1BEAD95F2C7DD4BA0068F5E0 /* CMakeSystem.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		1BEAD9612C7DD4BA0068F5E0 /* build.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = build.make; sourceTree = "<group>"; };
+		1BEAD9622C7DD4BA0068F5E0 /* cmake_clean_target.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_clean_target.cmake; sourceTree = "<group>"; };
+		1BEAD9632C7DD4BA0068F5E0 /* cmake_clean.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_clean.cmake; sourceTree = "<group>"; };
+		1BEAD9642C7DD4BA0068F5E0 /* compiler_depend.internal */ = {isa = PBXFileReference; lastKnownFileType = text; path = compiler_depend.internal; sourceTree = "<group>"; };
+		1BEAD9652C7DD4BA0068F5E0 /* compiler_depend.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = compiler_depend.make; sourceTree = "<group>"; };
+		1BEAD9662C7DD4BA0068F5E0 /* compiler_depend.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = compiler_depend.ts; sourceTree = "<group>"; };
+		1BEAD9672C7DD4BA0068F5E0 /* depend.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = depend.make; sourceTree = "<group>"; };
+		1BEAD9682C7DD4BA0068F5E0 /* DependInfo.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = DependInfo.cmake; sourceTree = "<group>"; };
+		1BEAD9692C7DD4BA0068F5E0 /* flags.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = flags.make; sourceTree = "<group>"; };
+		1BEAD96A2C7DD4BA0068F5E0 /* flutter_native_example.c.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = flutter_native_example.c.o; sourceTree = "<group>"; };
+		1BEAD96B2C7DD4BA0068F5E0 /* flutter_native_example.c.o.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = flutter_native_example.c.o.d; sourceTree = "<group>"; };
+		1BEAD96C2C7DD4BA0068F5E0 /* link.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = link.txt; sourceTree = "<group>"; };
+		1BEAD96D2C7DD4BA0068F5E0 /* progress.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = progress.make; sourceTree = "<group>"; };
+		1BEAD9702C7DD4BA0068F5E0 /* cmake.check_cache */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		1BEAD9712C7DD4BA0068F5E0 /* CMakeConfigureLog.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = CMakeConfigureLog.yaml; sourceTree = "<group>"; };
+		1BEAD9722C7DD4BA0068F5E0 /* CMakeDirectoryInformation.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeDirectoryInformation.cmake; sourceTree = "<group>"; };
+		1BEAD9732C7DD4BA0068F5E0 /* Makefile.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.cmake; sourceTree = "<group>"; };
+		1BEAD9742C7DD4BA0068F5E0 /* Makefile2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile2; sourceTree = "<group>"; };
+		1BEAD9752C7DD4BA0068F5E0 /* progress.marks */ = {isa = PBXFileReference; lastKnownFileType = text; path = progress.marks; sourceTree = "<group>"; };
+		1BEAD9762C7DD4BA0068F5E0 /* TargetDirectories.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		1BEAD9782C7DD4BA0068F5E0 /* cmake_install.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		1BEAD9792C7DD4BA0068F5E0 /* CMakeCache.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		1BEAD97A2C7DD4BA0068F5E0 /* libdemo_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdemo_library.a; sourceTree = "<group>"; };
+		1BEAD97B2C7DD4BA0068F5E0 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1BEAD97D2C7DD4BA0068F5E0 /* bug_report.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = bug_report.md; sourceTree = "<group>"; };
+		1BEAD97F2C7DD4BA0068F5E0 /* catalyst.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = catalyst.yml; sourceTree = "<group>"; };
+		1BEAD9802C7DD4BA0068F5E0 /* combined.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = combined.yml; sourceTree = "<group>"; };
+		1BEAD9812C7DD4BA0068F5E0 /* ios.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ios.yml; sourceTree = "<group>"; };
+		1BEAD9822C7DD4BA0068F5E0 /* macos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = macos.yml; sourceTree = "<group>"; };
+		1BEAD9832C7DD4BA0068F5E0 /* tvos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = tvos.yml; sourceTree = "<group>"; };
+		1BEAD9842C7DD4BA0068F5E0 /* visionos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = visionos.yml; sourceTree = "<group>"; };
+		1BEAD9852C7DD4BA0068F5E0 /* watchos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = watchos.yml; sourceTree = "<group>"; };
+		1BEAD9872C7DD4BA0068F5E0 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		1BEAD9882C7DD4BA0068F5E0 /* FUNDING.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = FUNDING.yml; sourceTree = "<group>"; };
+		1BEAD98A2C7DD4BA0068F5E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BEAD98B2C7DD4BA0068F5E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BEAD98C2C7DD4BA0068F5E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BEAD98D2C7DD4BA0068F5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEAD98E2C7DD4BA0068F5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BEAD9902C7DD4BA0068F5E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BEAD9912C7DD4BA0068F5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BEAD9932C7DD4BA0068F5E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BEAD9942C7DD4BA0068F5E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BEAD9962C7DD4BA0068F5E0 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
+		1BEAD9972C7DD4BA0068F5E0 /* HelloWorldIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldIOS.h; sourceTree = "<group>"; };
+		1BEAD9992C7DD4BA0068F5E0 /* helloworld */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = helloworld; sourceTree = "<group>"; };
+		1BEAD99A2C7DD4BA0068F5E0 /* libexample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libexample.dylib; sourceTree = "<group>"; };
+		1BEAD99D2C7DD4BA0068F5E0 /* example-app.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "example-app.xcodeproj"; sourceTree = "<group>"; };
+		1BEAD99F2C7DD4BA0068F5E0 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1BEAD9A12C7DD4BA0068F5E0 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1BEAD9A22C7DD4BA0068F5E0 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
+		1BEAD9A32C7DD4BA0068F5E0 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
+		1BEAD9A42C7DD4BA0068F5E0 /* HelloWorldIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldIOS.h; sourceTree = "<group>"; };
+		1BEAD9A52C7DD4BA0068F5E0 /* HelloWorldIOS.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldIOS.mm; sourceTree = "<group>"; };
+		1BEAD9A62C7DD4BA0068F5E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1BEAD9A92C7DD4BA0068F5E0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1BEAD9AA2C7DD4BA0068F5E0 /* ios.toolchain.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = ios.toolchain.cmake; sourceTree = "<group>"; };
+		1BEAD9AB2C7DD4BA0068F5E0 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		1BEAD9AC2C7DD4BA0068F5E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BEAD9AE2C7DD4BA0068F5E0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1BEAD9AF2C7DD4BA0068F5E0 /* build_ios_macos.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_ios_macos.sh; sourceTree = "<group>"; };
+		1BEAD9B02C7DD4BA0068F5E0 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1BEAD9B12C7DD4BA0068F5E0 /* flutter_native_example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = flutter_native_example.c; sourceTree = "<group>"; };
+		1BEAD9B22C7DD4BA0068F5E0 /* flutter_native_example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flutter_native_example.h; sourceTree = "<group>"; };
 		21CAB1501865DFCC65CE0C92 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +241,617 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BEAD8EF2C7DD4BA0068F5E0 /* .idea */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8EE2C7DD4BA0068F5E0 /* workspace.xml */,
+			);
+			path = .idea;
+			sourceTree = "<group>";
+		};
+		1BEAD8F02C7DD4BA0068F5E0 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		1BEAD8F72C7DD4BA0068F5E0 /* arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8F12C7DD4BA0068F5E0 /* 7187679823f38a2a940e0043cdf9d637-common-args.resp */,
+				1BEAD8F22C7DD4BA0068F5E0 /* demo_library_libtool_dependency_info.dat */,
+				1BEAD8F32C7DD4BA0068F5E0 /* demo_library.LinkFileList */,
+				1BEAD8F42C7DD4BA0068F5E0 /* flutter_native_example.d */,
+				1BEAD8F52C7DD4BA0068F5E0 /* flutter_native_example.dia */,
+				1BEAD8F62C7DD4BA0068F5E0 /* flutter_native_example.o */,
+			);
+			path = arm64;
+			sourceTree = "<group>";
+		};
+		1BEAD8F82C7DD4BA0068F5E0 /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8F72C7DD4BA0068F5E0 /* arm64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		1BEAD8F92C7DD4BA0068F5E0 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8F82C7DD4BA0068F5E0 /* Objects-normal */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		1BEAD8FA2C7DD4BA0068F5E0 /* demo_library.build */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8F92C7DD4BA0068F5E0 /* Debug-iphoneos */,
+			);
+			path = demo_library.build;
+			sourceTree = "<group>";
+		};
+		1BEAD8FB2C7DD4BA0068F5E0 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		1BEAD8FC2C7DD4BA0068F5E0 /* EagerLinkingTBDs */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8FB2C7DD4BA0068F5E0 /* Debug-iphoneos */,
+			);
+			path = EagerLinkingTBDs;
+			sourceTree = "<group>";
+		};
+		1BEAD8FE2C7DD4BA0068F5E0 /* ALL_BUILD.build */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8FD2C7DD4BA0068F5E0 /* Script-BDBAB1A129E1EABE6CA111D1.sh */,
+			);
+			path = ALL_BUILD.build;
+			sourceTree = "<group>";
+		};
+		1BEAD9002C7DD4BA0068F5E0 /* ZERO_CHECK.build */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8FF2C7DD4BA0068F5E0 /* Script-B31509C5F434FE3CD42BF776.sh */,
+			);
+			path = ZERO_CHECK.build;
+			sourceTree = "<group>";
+		};
+		1BEAD9012C7DD4BA0068F5E0 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8FE2C7DD4BA0068F5E0 /* ALL_BUILD.build */,
+				1BEAD9002C7DD4BA0068F5E0 /* ZERO_CHECK.build */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		1BEAD9022C7DD4BA0068F5E0 /* flutter_native_example_library.build */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9012C7DD4BA0068F5E0 /* Debug-iphoneos */,
+			);
+			path = flutter_native_example_library.build;
+			sourceTree = "<group>";
+		};
+		1BEAD9072C7DD4BA0068F5E0 /* attachments */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9032C7DD4BA0068F5E0 /* 41bc606e75e6186011edee8031e29af9 */,
+				1BEAD9042C7DD4BA0068F5E0 /* 119f477bd7919f57bf107b32fe81717d */,
+				1BEAD9052C7DD4BA0068F5E0 /* 7075eea6d3c43638bb37fe29b85a3aa9 */,
+				1BEAD9062C7DD4BA0068F5E0 /* 36968e47d34bbd7391b8e2a7029d0e7c */,
+			);
+			path = attachments;
+			sourceTree = "<group>";
+		};
+		1BEAD90D2C7DD4BA0068F5E0 /* 2d2b0aaf9d77810b034e17c417a50923.xcbuilddata */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9072C7DD4BA0068F5E0 /* attachments */,
+				1BEAD9082C7DD4BA0068F5E0 /* build-request.json */,
+				1BEAD9092C7DD4BA0068F5E0 /* description.msgpack */,
+				1BEAD90A2C7DD4BA0068F5E0 /* manifest.json */,
+				1BEAD90B2C7DD4BA0068F5E0 /* target-graph.txt */,
+				1BEAD90C2C7DD4BA0068F5E0 /* task-store.msgpack */,
+			);
+			path = 2d2b0aaf9d77810b034e17c417a50923.xcbuilddata;
+			sourceTree = "<group>";
+		};
+		1BEAD9122C7DD4BA0068F5E0 /* attachments */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD90E2C7DD4BA0068F5E0 /* 41bc606e75e6186011edee8031e29af9 */,
+				1BEAD90F2C7DD4BA0068F5E0 /* 119f477bd7919f57bf107b32fe81717d */,
+				1BEAD9102C7DD4BA0068F5E0 /* 7075eea6d3c43638bb37fe29b85a3aa9 */,
+				1BEAD9112C7DD4BA0068F5E0 /* 36968e47d34bbd7391b8e2a7029d0e7c */,
+			);
+			path = attachments;
+			sourceTree = "<group>";
+		};
+		1BEAD9182C7DD4BA0068F5E0 /* 0591729a64737dfca9eb91baca898d10.xcbuilddata */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9122C7DD4BA0068F5E0 /* attachments */,
+				1BEAD9132C7DD4BA0068F5E0 /* build-request.json */,
+				1BEAD9142C7DD4BA0068F5E0 /* description.msgpack */,
+				1BEAD9152C7DD4BA0068F5E0 /* manifest.json */,
+				1BEAD9162C7DD4BA0068F5E0 /* target-graph.txt */,
+				1BEAD9172C7DD4BA0068F5E0 /* task-store.msgpack */,
+			);
+			path = 0591729a64737dfca9eb91baca898d10.xcbuilddata;
+			sourceTree = "<group>";
+		};
+		1BEAD91A2C7DD4BA0068F5E0 /* XCBuildData */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD90D2C7DD4BA0068F5E0 /* 2d2b0aaf9d77810b034e17c417a50923.xcbuilddata */,
+				1BEAD9182C7DD4BA0068F5E0 /* 0591729a64737dfca9eb91baca898d10.xcbuilddata */,
+				1BEAD9192C7DD4BA0068F5E0 /* build.db */,
+			);
+			path = XCBuildData;
+			sourceTree = "<group>";
+		};
+		1BEAD91B2C7DD4BA0068F5E0 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8F02C7DD4BA0068F5E0 /* Debug-iphoneos */,
+				1BEAD8FA2C7DD4BA0068F5E0 /* demo_library.build */,
+				1BEAD8FC2C7DD4BA0068F5E0 /* EagerLinkingTBDs */,
+				1BEAD9022C7DD4BA0068F5E0 /* flutter_native_example_library.build */,
+				1BEAD91A2C7DD4BA0068F5E0 /* XCBuildData */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		1BEAD9222C7DD4BA0068F5E0 /* arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD91C2C7DD4BA0068F5E0 /* 7187679823f38a2a940e0043cdf9d637-common-args.resp */,
+				1BEAD91D2C7DD4BA0068F5E0 /* CMakeCCompilerId.d */,
+				1BEAD91E2C7DD4BA0068F5E0 /* CMakeCCompilerId.dia */,
+				1BEAD91F2C7DD4BA0068F5E0 /* CMakeCCompilerId.o */,
+				1BEAD9202C7DD4BA0068F5E0 /* CompilerIdC_dependency_info.dat */,
+				1BEAD9212C7DD4BA0068F5E0 /* CompilerIdC.LinkFileList */,
+			);
+			path = arm64;
+			sourceTree = "<group>";
+		};
+		1BEAD9232C7DD4BA0068F5E0 /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9222C7DD4BA0068F5E0 /* arm64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		1BEAD92D2C7DD4BA0068F5E0 /* CompilerIdC.build */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9232C7DD4BA0068F5E0 /* Objects-normal */,
+				1BEAD9242C7DD4BA0068F5E0 /* all-product-headers.yaml */,
+				1BEAD9252C7DD4BA0068F5E0 /* CompilerIdC-all-non-framework-target-headers.hmap */,
+				1BEAD9262C7DD4BA0068F5E0 /* CompilerIdC-all-target-headers.hmap */,
+				1BEAD9272C7DD4BA0068F5E0 /* CompilerIdC-generated-files.hmap */,
+				1BEAD9282C7DD4BA0068F5E0 /* CompilerIdC-own-target-headers.hmap */,
+				1BEAD9292C7DD4BA0068F5E0 /* CompilerIdC-project-headers.hmap */,
+				1BEAD92A2C7DD4BA0068F5E0 /* CompilerIdC.hmap */,
+				1BEAD92B2C7DD4BA0068F5E0 /* empty-CompilerIdC.plist */,
+				1BEAD92C2C7DD4BA0068F5E0 /* Script-2C8FEB8E15DC1A1A00E56A5D.sh */,
+			);
+			path = CompilerIdC.build;
+			sourceTree = "<group>";
+		};
+		1BEAD92E2C7DD4BA0068F5E0 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD92D2C7DD4BA0068F5E0 /* CompilerIdC.build */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		1BEAD92F2C7DD4BA0068F5E0 /* CompilerIdC.build */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD92E2C7DD4BA0068F5E0 /* Debug-iphoneos */,
+			);
+			path = CompilerIdC.build;
+			sourceTree = "<group>";
+		};
+		1BEAD9302C7DD4BA0068F5E0 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		1BEAD9312C7DD4BA0068F5E0 /* EagerLinkingTBDs */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9302C7DD4BA0068F5E0 /* Debug-iphoneos */,
+			);
+			path = EagerLinkingTBDs;
+			sourceTree = "<group>";
+		};
+		1BEAD9322C7DD4BA0068F5E0 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		1BEAD93A2C7DD4BA0068F5E0 /* attachments */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9332C7DD4BA0068F5E0 /* 1a3e1f1958d6b299e6ec4096465d1068 */,
+				1BEAD9342C7DD4BA0068F5E0 /* 1aa4c3bd253cfcf8358ab5d8d6ef28a3 */,
+				1BEAD9352C7DD4BA0068F5E0 /* 2de6a04cdba79ed13580c47dfd70cc5f */,
+				1BEAD9362C7DD4BA0068F5E0 /* 8bba4233626f64a7ea772bb94a08a1a9 */,
+				1BEAD9372C7DD4BA0068F5E0 /* 177becd055ce63eae4d9f1e7ec0ce515 */,
+				1BEAD9382C7DD4BA0068F5E0 /* f3bca8d0dcf769d1a415ff6379934b36 */,
+				1BEAD9392C7DD4BA0068F5E0 /* fd8314defc70a8778956f026c0ddfd19 */,
+			);
+			path = attachments;
+			sourceTree = "<group>";
+		};
+		1BEAD9402C7DD4BA0068F5E0 /* 1becaed3c0a3ab50b5f31796b0809653.xcbuilddata */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD93A2C7DD4BA0068F5E0 /* attachments */,
+				1BEAD93B2C7DD4BA0068F5E0 /* build-request.json */,
+				1BEAD93C2C7DD4BA0068F5E0 /* description.msgpack */,
+				1BEAD93D2C7DD4BA0068F5E0 /* manifest.json */,
+				1BEAD93E2C7DD4BA0068F5E0 /* target-graph.txt */,
+				1BEAD93F2C7DD4BA0068F5E0 /* task-store.msgpack */,
+			);
+			path = 1becaed3c0a3ab50b5f31796b0809653.xcbuilddata;
+			sourceTree = "<group>";
+		};
+		1BEAD9422C7DD4BA0068F5E0 /* XCBuildData */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9402C7DD4BA0068F5E0 /* 1becaed3c0a3ab50b5f31796b0809653.xcbuilddata */,
+				1BEAD9412C7DD4BA0068F5E0 /* build.db */,
+			);
+			path = XCBuildData;
+			sourceTree = "<group>";
+		};
+		1BEAD9472C7DD4BA0068F5E0 /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD92F2C7DD4BA0068F5E0 /* CompilerIdC.build */,
+				1BEAD9312C7DD4BA0068F5E0 /* EagerLinkingTBDs */,
+				1BEAD9322C7DD4BA0068F5E0 /* tmp */,
+				1BEAD9422C7DD4BA0068F5E0 /* XCBuildData */,
+				1BEAD9432C7DD4BA0068F5E0 /* CMakeCCompilerId.c */,
+				1BEAD9442C7DD4BA0068F5E0 /* CompilerIdC.xcodeproj */,
+				1BEAD9452C7DD4BA0068F5E0 /* CompilerIdC.xctest */,
+				1BEAD9462C7DD4BA0068F5E0 /* CompilerIdC.xctest.dSYM */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		1BEAD94B2C7DD4BA0068F5E0 /* 3.29.0 */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9472C7DD4BA0068F5E0 /* CompilerIdC */,
+				1BEAD9482C7DD4BA0068F5E0 /* CMakeCCompiler.cmake */,
+				1BEAD9492C7DD4BA0068F5E0 /* CMakeDetermineCompilerABI_C.bin */,
+				1BEAD94A2C7DD4BA0068F5E0 /* CMakeSystem.cmake */,
+			);
+			path = 3.29.0;
+			sourceTree = "<group>";
+		};
+		1BEAD94C2C7DD4BA0068F5E0 /* pkgRedirects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pkgRedirects;
+			sourceTree = "<group>";
+		};
+		1BEAD9502C7DD4BA0068F5E0 /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD94B2C7DD4BA0068F5E0 /* 3.29.0 */,
+				1BEAD94C2C7DD4BA0068F5E0 /* pkgRedirects */,
+				1BEAD94D2C7DD4BA0068F5E0 /* cmake.check_cache */,
+				1BEAD94E2C7DD4BA0068F5E0 /* CMakeConfigureLog.yaml */,
+				1BEAD94F2C7DD4BA0068F5E0 /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		1BEAD9522C7DD4BA0068F5E0 /* CMakeScripts */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9512C7DD4BA0068F5E0 /* ReRunCMake.make */,
+			);
+			path = CMakeScripts;
+			sourceTree = "<group>";
+		};
+		1BEAD9542C7DD4BA0068F5E0 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9532C7DD4BA0068F5E0 /* libdemo_library.a */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		1BEAD9582C7DD4BA0068F5E0 /* cmake-build-ios */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD91B2C7DD4BA0068F5E0 /* build */,
+				1BEAD9502C7DD4BA0068F5E0 /* CMakeFiles */,
+				1BEAD9522C7DD4BA0068F5E0 /* CMakeScripts */,
+				1BEAD9542C7DD4BA0068F5E0 /* Debug-iphoneos */,
+				1BEAD9552C7DD4BA0068F5E0 /* cmake_install.cmake */,
+				1BEAD9562C7DD4BA0068F5E0 /* CMakeCache.txt */,
+				1BEAD9572C7DD4BA0068F5E0 /* flutter_native_example_library.xcodeproj */,
+			);
+			path = "cmake-build-ios";
+			sourceTree = "<group>";
+		};
+		1BEAD9592C7DD4BA0068F5E0 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		1BEAD95C2C7DD4BA0068F5E0 /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9592C7DD4BA0068F5E0 /* tmp */,
+				1BEAD95A2C7DD4BA0068F5E0 /* CMakeCCompilerId.c */,
+				1BEAD95B2C7DD4BA0068F5E0 /* CMakeCCompilerId.o */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		1BEAD9602C7DD4BA0068F5E0 /* 3.29.0 */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD95C2C7DD4BA0068F5E0 /* CompilerIdC */,
+				1BEAD95D2C7DD4BA0068F5E0 /* CMakeCCompiler.cmake */,
+				1BEAD95E2C7DD4BA0068F5E0 /* CMakeDetermineCompilerABI_C.bin */,
+				1BEAD95F2C7DD4BA0068F5E0 /* CMakeSystem.cmake */,
+			);
+			path = 3.29.0;
+			sourceTree = "<group>";
+		};
+		1BEAD96E2C7DD4BA0068F5E0 /* demo_library.dir */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9612C7DD4BA0068F5E0 /* build.make */,
+				1BEAD9622C7DD4BA0068F5E0 /* cmake_clean_target.cmake */,
+				1BEAD9632C7DD4BA0068F5E0 /* cmake_clean.cmake */,
+				1BEAD9642C7DD4BA0068F5E0 /* compiler_depend.internal */,
+				1BEAD9652C7DD4BA0068F5E0 /* compiler_depend.make */,
+				1BEAD9662C7DD4BA0068F5E0 /* compiler_depend.ts */,
+				1BEAD9672C7DD4BA0068F5E0 /* depend.make */,
+				1BEAD9682C7DD4BA0068F5E0 /* DependInfo.cmake */,
+				1BEAD9692C7DD4BA0068F5E0 /* flags.make */,
+				1BEAD96A2C7DD4BA0068F5E0 /* flutter_native_example.c.o */,
+				1BEAD96B2C7DD4BA0068F5E0 /* flutter_native_example.c.o.d */,
+				1BEAD96C2C7DD4BA0068F5E0 /* link.txt */,
+				1BEAD96D2C7DD4BA0068F5E0 /* progress.make */,
+			);
+			path = demo_library.dir;
+			sourceTree = "<group>";
+		};
+		1BEAD96F2C7DD4BA0068F5E0 /* pkgRedirects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pkgRedirects;
+			sourceTree = "<group>";
+		};
+		1BEAD9772C7DD4BA0068F5E0 /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9602C7DD4BA0068F5E0 /* 3.29.0 */,
+				1BEAD96E2C7DD4BA0068F5E0 /* demo_library.dir */,
+				1BEAD96F2C7DD4BA0068F5E0 /* pkgRedirects */,
+				1BEAD9702C7DD4BA0068F5E0 /* cmake.check_cache */,
+				1BEAD9712C7DD4BA0068F5E0 /* CMakeConfigureLog.yaml */,
+				1BEAD9722C7DD4BA0068F5E0 /* CMakeDirectoryInformation.cmake */,
+				1BEAD9732C7DD4BA0068F5E0 /* Makefile.cmake */,
+				1BEAD9742C7DD4BA0068F5E0 /* Makefile2 */,
+				1BEAD9752C7DD4BA0068F5E0 /* progress.marks */,
+				1BEAD9762C7DD4BA0068F5E0 /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		1BEAD97C2C7DD4BA0068F5E0 /* cmake-build-macos */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9772C7DD4BA0068F5E0 /* CMakeFiles */,
+				1BEAD9782C7DD4BA0068F5E0 /* cmake_install.cmake */,
+				1BEAD9792C7DD4BA0068F5E0 /* CMakeCache.txt */,
+				1BEAD97A2C7DD4BA0068F5E0 /* libdemo_library.a */,
+				1BEAD97B2C7DD4BA0068F5E0 /* Makefile */,
+			);
+			path = "cmake-build-macos";
+			sourceTree = "<group>";
+		};
+		1BEAD97E2C7DD4BA0068F5E0 /* ISSUE_TEMPLATE */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD97D2C7DD4BA0068F5E0 /* bug_report.md */,
+			);
+			path = ISSUE_TEMPLATE;
+			sourceTree = "<group>";
+		};
+		1BEAD9862C7DD4BA0068F5E0 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD97F2C7DD4BA0068F5E0 /* catalyst.yml */,
+				1BEAD9802C7DD4BA0068F5E0 /* combined.yml */,
+				1BEAD9812C7DD4BA0068F5E0 /* ios.yml */,
+				1BEAD9822C7DD4BA0068F5E0 /* macos.yml */,
+				1BEAD9832C7DD4BA0068F5E0 /* tvos.yml */,
+				1BEAD9842C7DD4BA0068F5E0 /* visionos.yml */,
+				1BEAD9852C7DD4BA0068F5E0 /* watchos.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		1BEAD9892C7DD4BA0068F5E0 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD97E2C7DD4BA0068F5E0 /* ISSUE_TEMPLATE */,
+				1BEAD9862C7DD4BA0068F5E0 /* workflows */,
+				1BEAD9872C7DD4BA0068F5E0 /* build.sh */,
+				1BEAD9882C7DD4BA0068F5E0 /* FUNDING.yml */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		1BEAD9952C7DD4BA0068F5E0 /* example-app */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD98A2C7DD4BA0068F5E0 /* AppDelegate.h */,
+				1BEAD98B2C7DD4BA0068F5E0 /* AppDelegate.m */,
+				1BEAD98C2C7DD4BA0068F5E0 /* Assets.xcassets */,
+				1BEAD98D2C7DD4BA0068F5E0 /* Info.plist */,
+				1BEAD98F2C7DD4BA0068F5E0 /* LaunchScreen.storyboard */,
+				1BEAD9902C7DD4BA0068F5E0 /* main.m */,
+				1BEAD9922C7DD4BA0068F5E0 /* Main.storyboard */,
+				1BEAD9932C7DD4BA0068F5E0 /* ViewController.h */,
+				1BEAD9942C7DD4BA0068F5E0 /* ViewController.m */,
+			);
+			path = "example-app";
+			sourceTree = "<group>";
+		};
+		1BEAD9982C7DD4BA0068F5E0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9962C7DD4BA0068F5E0 /* HelloWorld.hpp */,
+				1BEAD9972C7DD4BA0068F5E0 /* HelloWorldIOS.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1BEAD99B2C7DD4BA0068F5E0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9992C7DD4BA0068F5E0 /* helloworld */,
+				1BEAD99A2C7DD4BA0068F5E0 /* libexample.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1BEAD99C2C7DD4BA0068F5E0 /* example-lib */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9982C7DD4BA0068F5E0 /* include */,
+				1BEAD99B2C7DD4BA0068F5E0 /* lib */,
+			);
+			path = "example-lib";
+			sourceTree = "<group>";
+		};
+		1BEAD99E2C7DD4BA0068F5E0 /* example-app */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9952C7DD4BA0068F5E0 /* example-app */,
+				1BEAD99C2C7DD4BA0068F5E0 /* example-lib */,
+				1BEAD99D2C7DD4BA0068F5E0 /* example-app.xcodeproj */,
+			);
+			path = "example-app";
+			sourceTree = "<group>";
+		};
+		1BEAD9A02C7DD4BA0068F5E0 /* example-curl */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD99F2C7DD4BA0068F5E0 /* CMakeLists.txt */,
+			);
+			path = "example-curl";
+			sourceTree = "<group>";
+		};
+		1BEAD9A72C7DD4BA0068F5E0 /* example-lib */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9A12C7DD4BA0068F5E0 /* CMakeLists.txt */,
+				1BEAD9A22C7DD4BA0068F5E0 /* HelloWorld.cpp */,
+				1BEAD9A32C7DD4BA0068F5E0 /* HelloWorld.hpp */,
+				1BEAD9A42C7DD4BA0068F5E0 /* HelloWorldIOS.h */,
+				1BEAD9A52C7DD4BA0068F5E0 /* HelloWorldIOS.mm */,
+				1BEAD9A62C7DD4BA0068F5E0 /* main.cpp */,
+			);
+			path = "example-lib";
+			sourceTree = "<group>";
+		};
+		1BEAD9A82C7DD4BA0068F5E0 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD99E2C7DD4BA0068F5E0 /* example-app */,
+				1BEAD9A02C7DD4BA0068F5E0 /* example-curl */,
+				1BEAD9A72C7DD4BA0068F5E0 /* example-lib */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		1BEAD9AD2C7DD4BA0068F5E0 /* ios-cmake */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9892C7DD4BA0068F5E0 /* .github */,
+				1BEAD9A82C7DD4BA0068F5E0 /* example */,
+				1BEAD9A92C7DD4BA0068F5E0 /* .gitignore */,
+				1BEAD9AA2C7DD4BA0068F5E0 /* ios.toolchain.cmake */,
+				1BEAD9AB2C7DD4BA0068F5E0 /* LICENSE.md */,
+				1BEAD9AC2C7DD4BA0068F5E0 /* README.md */,
+			);
+			path = "ios-cmake";
+			sourceTree = "<group>";
+		};
+		1BEAD9B32C7DD4BA0068F5E0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD8EF2C7DD4BA0068F5E0 /* .idea */,
+				1BEAD9582C7DD4BA0068F5E0 /* cmake-build-ios */,
+				1BEAD97C2C7DD4BA0068F5E0 /* cmake-build-macos */,
+				1BEAD9AD2C7DD4BA0068F5E0 /* ios-cmake */,
+				1BEAD9AE2C7DD4BA0068F5E0 /* .gitignore */,
+				1BEAD9AF2C7DD4BA0068F5E0 /* build_ios_macos.sh */,
+				1BEAD9B02C7DD4BA0068F5E0 /* CMakeLists.txt */,
+				1BEAD9B12C7DD4BA0068F5E0 /* flutter_native_example.c */,
+				1BEAD9B22C7DD4BA0068F5E0 /* flutter_native_example.h */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		1BEAD9B42C7DD4BA0068F5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BEAD9B62C7DD4BA0068F5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9BD2C7DD4BA0068F5E0 /* example-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BEAD9B82C7DD4BA0068F5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9C22C7DD4BA0068F5E0 /* libdemo_library.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		331C8082294A63A400263BE5 /* RunnerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +883,7 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
+				1BEAD9B32C7DD4BA0068F5E0 /* src */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
@@ -161,7 +927,6 @@
 				926B70CB2E1BDEE9967F7C0B /* Pods-RunnerTests.release.xcconfig */,
 				F6FCB2060D6B0626434FF99F /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -240,6 +1005,20 @@
 			mainGroup = 97C146E51CF9000F007C117D;
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BEAD9B42C7DD4BA0068F5E0 /* Products */;
+					ProjectRef = 1BEAD9442C7DD4BA0068F5E0 /* CompilerIdC.xcodeproj */;
+				},
+				{
+					ProductGroup = 1BEAD9B62C7DD4BA0068F5E0 /* Products */;
+					ProjectRef = 1BEAD99D2C7DD4BA0068F5E0 /* example-app.xcodeproj */;
+				},
+				{
+					ProductGroup = 1BEAD9B82C7DD4BA0068F5E0 /* Products */;
+					ProjectRef = 1BEAD9572C7DD4BA0068F5E0 /* flutter_native_example_library.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
@@ -247,6 +1026,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BEAD9BD2C7DD4BA0068F5E0 /* example-app.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "example-app.app";
+			remoteRef = 1BEAD9BC2C7DD4BA0068F5E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BEAD9C22C7DD4BA0068F5E0 /* libdemo_library.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdemo_library.a;
+			remoteRef = 1BEAD9C12C7DD4BA0068F5E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		331C807F294A63A400263BE5 /* Resources */ = {
@@ -393,6 +1189,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1BEAD98F2C7DD4BA0068F5E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEAD98E2C7DD4BA0068F5E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BEAD9922C7DD4BA0068F5E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEAD9912C7DD4BA0068F5E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

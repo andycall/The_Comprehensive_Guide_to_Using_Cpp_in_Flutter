@@ -32,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1BEADA592C7DF4610068F5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEADA402C7DF4610068F5E0 /* example-app.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B8750AC1E448D83006669EE;
+			remoteInfo = "example-app";
+		};
 		331C80D9294CF71000263BE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 33CC10E52044A3C60003C045 /* Project object */;
@@ -65,6 +72,111 @@
 		0A9B4B7AA5BA12ED277DEFFE /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		0C4F5B1321755310786E68CD /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FB931A40E3B730BC30A3E5 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		1BEAD9C32C7DF4610068F5E0 /* cache-v2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cache-v2"; sourceTree = "<group>"; };
+		1BEAD9C42C7DF4610068F5E0 /* cmakeFiles-v1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cmakeFiles-v1"; sourceTree = "<group>"; };
+		1BEAD9C52C7DF4610068F5E0 /* codemodel-v2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "codemodel-v2"; sourceTree = "<group>"; };
+		1BEAD9C62C7DF4610068F5E0 /* toolchains-v1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "toolchains-v1"; sourceTree = "<group>"; };
+		1BEAD9C82C7DF4610068F5E0 /* cache-v2-e6db713209dcb335e45c.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cache-v2-e6db713209dcb335e45c.json"; sourceTree = "<group>"; };
+		1BEAD9C92C7DF4610068F5E0 /* cmakeFiles-v1-6c0c7c9105967fdec2f7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cmakeFiles-v1-6c0c7c9105967fdec2f7.json"; sourceTree = "<group>"; };
+		1BEAD9CA2C7DF4610068F5E0 /* codemodel-v2-3833b3904ca6aff51648.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "codemodel-v2-3833b3904ca6aff51648.json"; sourceTree = "<group>"; };
+		1BEAD9CB2C7DF4610068F5E0 /* directory-.-Debug-f5ebdc15457944623624.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "directory-.-Debug-f5ebdc15457944623624.json"; sourceTree = "<group>"; };
+		1BEAD9CC2C7DF4610068F5E0 /* index-2024-08-27T09-36-27-0374.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "index-2024-08-27T09-36-27-0374.json"; sourceTree = "<group>"; };
+		1BEAD9CD2C7DF4610068F5E0 /* target-demo_library-Debug-57f446feaf03fa6baa9f.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "target-demo_library-Debug-57f446feaf03fa6baa9f.json"; sourceTree = "<group>"; };
+		1BEAD9CE2C7DF4610068F5E0 /* toolchains-v1-3bfd73f62fea50a422bf.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "toolchains-v1-3bfd73f62fea50a422bf.json"; sourceTree = "<group>"; };
+		1BEAD9D42C7DF4610068F5E0 /* CMakeCCompilerId.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		1BEAD9D52C7DF4610068F5E0 /* CMakeCCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCCompilerId.o; sourceTree = "<group>"; };
+		1BEAD9D82C7DF4610068F5E0 /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		1BEAD9D92C7DF4610068F5E0 /* CMakeCXXCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCXXCompilerId.o; sourceTree = "<group>"; };
+		1BEAD9DB2C7DF4610068F5E0 /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		1BEAD9DC2C7DF4610068F5E0 /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		1BEAD9DD2C7DF4610068F5E0 /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		1BEAD9DE2C7DF4610068F5E0 /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		1BEAD9DF2C7DF4610068F5E0 /* CMakeSystem.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		1BEAD9E22C7DF4610068F5E0 /* flutter_native_example.cc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = flutter_native_example.cc.o; sourceTree = "<group>"; };
+		1BEAD9E52C7DF4610068F5E0 /* clion-Debug-log.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "clion-Debug-log.txt"; sourceTree = "<group>"; };
+		1BEAD9E62C7DF4610068F5E0 /* clion-environment.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "clion-environment.txt"; sourceTree = "<group>"; };
+		1BEAD9E72C7DF4610068F5E0 /* cmake.check_cache */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		1BEAD9E82C7DF4610068F5E0 /* CMakeConfigureLog.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = CMakeConfigureLog.yaml; sourceTree = "<group>"; };
+		1BEAD9E92C7DF4610068F5E0 /* rules.ninja */ = {isa = PBXFileReference; lastKnownFileType = text; path = rules.ninja; sourceTree = "<group>"; };
+		1BEAD9EA2C7DF4610068F5E0 /* TargetDirectories.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		1BEAD9EC2C7DF4610068F5E0 /* LastTest.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = LastTest.log; sourceTree = "<group>"; };
+		1BEAD9EF2C7DF4610068F5E0 /* .ninja_deps */ = {isa = PBXFileReference; lastKnownFileType = file; path = .ninja_deps; sourceTree = "<group>"; };
+		1BEAD9F02C7DF4610068F5E0 /* .ninja_log */ = {isa = PBXFileReference; lastKnownFileType = text; path = .ninja_log; sourceTree = "<group>"; };
+		1BEAD9F12C7DF4610068F5E0 /* build.ninja */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.ninja; sourceTree = "<group>"; };
+		1BEAD9F22C7DF4610068F5E0 /* cmake_install.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		1BEAD9F32C7DF4610068F5E0 /* CMakeCache.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		1BEAD9F42C7DF4610068F5E0 /* libdemo_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdemo_library.a; sourceTree = "<group>"; };
+		1BEAD9F72C7DF4610068F5E0 /* CMakeCCompilerId.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		1BEAD9F82C7DF4610068F5E0 /* CMakeCCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCCompilerId.o; sourceTree = "<group>"; };
+		1BEAD9FB2C7DF4610068F5E0 /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		1BEAD9FC2C7DF4610068F5E0 /* CMakeCXXCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCXXCompilerId.o; sourceTree = "<group>"; };
+		1BEAD9FE2C7DF4610068F5E0 /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		1BEAD9FF2C7DF4610068F5E0 /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		1BEADA002C7DF4610068F5E0 /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		1BEADA012C7DF4610068F5E0 /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		1BEADA022C7DF4610068F5E0 /* CMakeSystem.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		1BEADA052C7DF4610068F5E0 /* build.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = build.make; sourceTree = "<group>"; };
+		1BEADA062C7DF4610068F5E0 /* cmake_clean_target.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_clean_target.cmake; sourceTree = "<group>"; };
+		1BEADA072C7DF4610068F5E0 /* cmake_clean.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_clean.cmake; sourceTree = "<group>"; };
+		1BEADA082C7DF4610068F5E0 /* compiler_depend.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = compiler_depend.make; sourceTree = "<group>"; };
+		1BEADA092C7DF4610068F5E0 /* compiler_depend.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = compiler_depend.ts; sourceTree = "<group>"; };
+		1BEADA0A2C7DF4610068F5E0 /* depend.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = depend.make; sourceTree = "<group>"; };
+		1BEADA0B2C7DF4610068F5E0 /* DependInfo.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = DependInfo.cmake; sourceTree = "<group>"; };
+		1BEADA0C2C7DF4610068F5E0 /* flags.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = flags.make; sourceTree = "<group>"; };
+		1BEADA0D2C7DF4610068F5E0 /* flutter_native_example.cc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = flutter_native_example.cc.o; sourceTree = "<group>"; };
+		1BEADA0E2C7DF4610068F5E0 /* flutter_native_example.cc.o.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = flutter_native_example.cc.o.d; sourceTree = "<group>"; };
+		1BEADA0F2C7DF4610068F5E0 /* link.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = link.txt; sourceTree = "<group>"; };
+		1BEADA102C7DF4610068F5E0 /* progress.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = progress.make; sourceTree = "<group>"; };
+		1BEADA132C7DF4610068F5E0 /* cmake.check_cache */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		1BEADA142C7DF4610068F5E0 /* CMakeConfigureLog.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = CMakeConfigureLog.yaml; sourceTree = "<group>"; };
+		1BEADA152C7DF4610068F5E0 /* CMakeDirectoryInformation.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeDirectoryInformation.cmake; sourceTree = "<group>"; };
+		1BEADA162C7DF4610068F5E0 /* Makefile.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.cmake; sourceTree = "<group>"; };
+		1BEADA172C7DF4610068F5E0 /* Makefile2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile2; sourceTree = "<group>"; };
+		1BEADA182C7DF4610068F5E0 /* progress.marks */ = {isa = PBXFileReference; lastKnownFileType = text; path = progress.marks; sourceTree = "<group>"; };
+		1BEADA192C7DF4610068F5E0 /* TargetDirectories.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		1BEADA1B2C7DF4610068F5E0 /* cmake_install.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		1BEADA1C2C7DF4610068F5E0 /* CMakeCache.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		1BEADA1D2C7DF4610068F5E0 /* libdemo_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdemo_library.a; sourceTree = "<group>"; };
+		1BEADA1E2C7DF4610068F5E0 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1BEADA202C7DF4610068F5E0 /* bug_report.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = bug_report.md; sourceTree = "<group>"; };
+		1BEADA222C7DF4610068F5E0 /* catalyst.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = catalyst.yml; sourceTree = "<group>"; };
+		1BEADA232C7DF4610068F5E0 /* combined.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = combined.yml; sourceTree = "<group>"; };
+		1BEADA242C7DF4610068F5E0 /* ios.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ios.yml; sourceTree = "<group>"; };
+		1BEADA252C7DF4610068F5E0 /* macos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = macos.yml; sourceTree = "<group>"; };
+		1BEADA262C7DF4610068F5E0 /* tvos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = tvos.yml; sourceTree = "<group>"; };
+		1BEADA272C7DF4610068F5E0 /* visionos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = visionos.yml; sourceTree = "<group>"; };
+		1BEADA282C7DF4610068F5E0 /* watchos.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = watchos.yml; sourceTree = "<group>"; };
+		1BEADA2A2C7DF4610068F5E0 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		1BEADA2B2C7DF4610068F5E0 /* FUNDING.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = FUNDING.yml; sourceTree = "<group>"; };
+		1BEADA2D2C7DF4610068F5E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BEADA2E2C7DF4610068F5E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BEADA2F2C7DF4610068F5E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BEADA302C7DF4610068F5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEADA312C7DF4610068F5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BEADA332C7DF4610068F5E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BEADA342C7DF4610068F5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BEADA362C7DF4610068F5E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BEADA372C7DF4610068F5E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BEADA392C7DF4610068F5E0 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
+		1BEADA3A2C7DF4610068F5E0 /* HelloWorldIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldIOS.h; sourceTree = "<group>"; };
+		1BEADA3C2C7DF4610068F5E0 /* helloworld */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = helloworld; sourceTree = "<group>"; };
+		1BEADA3D2C7DF4610068F5E0 /* libexample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libexample.dylib; sourceTree = "<group>"; };
+		1BEADA402C7DF4610068F5E0 /* example-app.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "example-app.xcodeproj"; sourceTree = "<group>"; };
+		1BEADA422C7DF4610068F5E0 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1BEADA442C7DF4610068F5E0 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1BEADA452C7DF4610068F5E0 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
+		1BEADA462C7DF4610068F5E0 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
+		1BEADA472C7DF4610068F5E0 /* HelloWorldIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldIOS.h; sourceTree = "<group>"; };
+		1BEADA482C7DF4610068F5E0 /* HelloWorldIOS.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldIOS.mm; sourceTree = "<group>"; };
+		1BEADA492C7DF4610068F5E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1BEADA4C2C7DF4610068F5E0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1BEADA4D2C7DF4610068F5E0 /* ios.toolchain.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = ios.toolchain.cmake; sourceTree = "<group>"; };
+		1BEADA4E2C7DF4610068F5E0 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		1BEADA4F2C7DF4610068F5E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BEADA512C7DF4610068F5E0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1BEADA522C7DF4610068F5E0 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1BEADA532C7DF4610068F5E0 /* flutter_native_example.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flutter_native_example.cc; sourceTree = "<group>"; };
+		1BEADA542C7DF4610068F5E0 /* flutter_native_example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flutter_native_example.h; sourceTree = "<group>"; };
 		27AB55E4EAC6A16C6CADAB56 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		331C80D5294CF71000263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331C80D7294CF71000263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
@@ -110,6 +222,439 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BEAD9C72C7DF4610068F5E0 /* query */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9C32C7DF4610068F5E0 /* cache-v2 */,
+				1BEAD9C42C7DF4610068F5E0 /* cmakeFiles-v1 */,
+				1BEAD9C52C7DF4610068F5E0 /* codemodel-v2 */,
+				1BEAD9C62C7DF4610068F5E0 /* toolchains-v1 */,
+			);
+			path = query;
+			sourceTree = "<group>";
+		};
+		1BEAD9CF2C7DF4610068F5E0 /* reply */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9C82C7DF4610068F5E0 /* cache-v2-e6db713209dcb335e45c.json */,
+				1BEAD9C92C7DF4610068F5E0 /* cmakeFiles-v1-6c0c7c9105967fdec2f7.json */,
+				1BEAD9CA2C7DF4610068F5E0 /* codemodel-v2-3833b3904ca6aff51648.json */,
+				1BEAD9CB2C7DF4610068F5E0 /* directory-.-Debug-f5ebdc15457944623624.json */,
+				1BEAD9CC2C7DF4610068F5E0 /* index-2024-08-27T09-36-27-0374.json */,
+				1BEAD9CD2C7DF4610068F5E0 /* target-demo_library-Debug-57f446feaf03fa6baa9f.json */,
+				1BEAD9CE2C7DF4610068F5E0 /* toolchains-v1-3bfd73f62fea50a422bf.json */,
+			);
+			path = reply;
+			sourceTree = "<group>";
+		};
+		1BEAD9D02C7DF4610068F5E0 /* v1 */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9C72C7DF4610068F5E0 /* query */,
+				1BEAD9CF2C7DF4610068F5E0 /* reply */,
+			);
+			path = v1;
+			sourceTree = "<group>";
+		};
+		1BEAD9D12C7DF4610068F5E0 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9D02C7DF4610068F5E0 /* v1 */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		1BEAD9D22C7DF4610068F5E0 /* .cmake */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9D12C7DF4610068F5E0 /* api */,
+			);
+			path = .cmake;
+			sourceTree = "<group>";
+		};
+		1BEAD9D32C7DF4610068F5E0 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		1BEAD9D62C7DF4610068F5E0 /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9D32C7DF4610068F5E0 /* tmp */,
+				1BEAD9D42C7DF4610068F5E0 /* CMakeCCompilerId.c */,
+				1BEAD9D52C7DF4610068F5E0 /* CMakeCCompilerId.o */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		1BEAD9D72C7DF4610068F5E0 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		1BEAD9DA2C7DF4610068F5E0 /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9D72C7DF4610068F5E0 /* tmp */,
+				1BEAD9D82C7DF4610068F5E0 /* CMakeCXXCompilerId.cpp */,
+				1BEAD9D92C7DF4610068F5E0 /* CMakeCXXCompilerId.o */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		1BEAD9E02C7DF4610068F5E0 /* 3.27.8 */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9D62C7DF4610068F5E0 /* CompilerIdC */,
+				1BEAD9DA2C7DF4610068F5E0 /* CompilerIdCXX */,
+				1BEAD9DB2C7DF4610068F5E0 /* CMakeCCompiler.cmake */,
+				1BEAD9DC2C7DF4610068F5E0 /* CMakeCXXCompiler.cmake */,
+				1BEAD9DD2C7DF4610068F5E0 /* CMakeDetermineCompilerABI_C.bin */,
+				1BEAD9DE2C7DF4610068F5E0 /* CMakeDetermineCompilerABI_CXX.bin */,
+				1BEAD9DF2C7DF4610068F5E0 /* CMakeSystem.cmake */,
+			);
+			path = 3.27.8;
+			sourceTree = "<group>";
+		};
+		1BEAD9E12C7DF4610068F5E0 /* CMakeScratch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeScratch;
+			sourceTree = "<group>";
+		};
+		1BEAD9E32C7DF4610068F5E0 /* demo_library.dir */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9E22C7DF4610068F5E0 /* flutter_native_example.cc.o */,
+			);
+			path = demo_library.dir;
+			sourceTree = "<group>";
+		};
+		1BEAD9E42C7DF4610068F5E0 /* pkgRedirects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pkgRedirects;
+			sourceTree = "<group>";
+		};
+		1BEAD9EB2C7DF4610068F5E0 /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9E02C7DF4610068F5E0 /* 3.27.8 */,
+				1BEAD9E12C7DF4610068F5E0 /* CMakeScratch */,
+				1BEAD9E32C7DF4610068F5E0 /* demo_library.dir */,
+				1BEAD9E42C7DF4610068F5E0 /* pkgRedirects */,
+				1BEAD9E52C7DF4610068F5E0 /* clion-Debug-log.txt */,
+				1BEAD9E62C7DF4610068F5E0 /* clion-environment.txt */,
+				1BEAD9E72C7DF4610068F5E0 /* cmake.check_cache */,
+				1BEAD9E82C7DF4610068F5E0 /* CMakeConfigureLog.yaml */,
+				1BEAD9E92C7DF4610068F5E0 /* rules.ninja */,
+				1BEAD9EA2C7DF4610068F5E0 /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		1BEAD9ED2C7DF4610068F5E0 /* Temporary */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9EC2C7DF4610068F5E0 /* LastTest.log */,
+			);
+			path = Temporary;
+			sourceTree = "<group>";
+		};
+		1BEAD9EE2C7DF4610068F5E0 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9ED2C7DF4610068F5E0 /* Temporary */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		1BEAD9F52C7DF4610068F5E0 /* cmake-build-debug */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9D22C7DF4610068F5E0 /* .cmake */,
+				1BEAD9EB2C7DF4610068F5E0 /* CMakeFiles */,
+				1BEAD9EE2C7DF4610068F5E0 /* Testing */,
+				1BEAD9EF2C7DF4610068F5E0 /* .ninja_deps */,
+				1BEAD9F02C7DF4610068F5E0 /* .ninja_log */,
+				1BEAD9F12C7DF4610068F5E0 /* build.ninja */,
+				1BEAD9F22C7DF4610068F5E0 /* cmake_install.cmake */,
+				1BEAD9F32C7DF4610068F5E0 /* CMakeCache.txt */,
+				1BEAD9F42C7DF4610068F5E0 /* libdemo_library.a */,
+			);
+			path = "cmake-build-debug";
+			sourceTree = "<group>";
+		};
+		1BEAD9F62C7DF4610068F5E0 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		1BEAD9F92C7DF4610068F5E0 /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9F62C7DF4610068F5E0 /* tmp */,
+				1BEAD9F72C7DF4610068F5E0 /* CMakeCCompilerId.c */,
+				1BEAD9F82C7DF4610068F5E0 /* CMakeCCompilerId.o */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		1BEAD9FA2C7DF4610068F5E0 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		1BEAD9FD2C7DF4610068F5E0 /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9FA2C7DF4610068F5E0 /* tmp */,
+				1BEAD9FB2C7DF4610068F5E0 /* CMakeCXXCompilerId.cpp */,
+				1BEAD9FC2C7DF4610068F5E0 /* CMakeCXXCompilerId.o */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		1BEADA032C7DF4610068F5E0 /* 3.29.0 */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9F92C7DF4610068F5E0 /* CompilerIdC */,
+				1BEAD9FD2C7DF4610068F5E0 /* CompilerIdCXX */,
+				1BEAD9FE2C7DF4610068F5E0 /* CMakeCCompiler.cmake */,
+				1BEAD9FF2C7DF4610068F5E0 /* CMakeCXXCompiler.cmake */,
+				1BEADA002C7DF4610068F5E0 /* CMakeDetermineCompilerABI_C.bin */,
+				1BEADA012C7DF4610068F5E0 /* CMakeDetermineCompilerABI_CXX.bin */,
+				1BEADA022C7DF4610068F5E0 /* CMakeSystem.cmake */,
+			);
+			path = 3.29.0;
+			sourceTree = "<group>";
+		};
+		1BEADA042C7DF4610068F5E0 /* CMakeScratch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeScratch;
+			sourceTree = "<group>";
+		};
+		1BEADA112C7DF4610068F5E0 /* demo_library.dir */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA052C7DF4610068F5E0 /* build.make */,
+				1BEADA062C7DF4610068F5E0 /* cmake_clean_target.cmake */,
+				1BEADA072C7DF4610068F5E0 /* cmake_clean.cmake */,
+				1BEADA082C7DF4610068F5E0 /* compiler_depend.make */,
+				1BEADA092C7DF4610068F5E0 /* compiler_depend.ts */,
+				1BEADA0A2C7DF4610068F5E0 /* depend.make */,
+				1BEADA0B2C7DF4610068F5E0 /* DependInfo.cmake */,
+				1BEADA0C2C7DF4610068F5E0 /* flags.make */,
+				1BEADA0D2C7DF4610068F5E0 /* flutter_native_example.cc.o */,
+				1BEADA0E2C7DF4610068F5E0 /* flutter_native_example.cc.o.d */,
+				1BEADA0F2C7DF4610068F5E0 /* link.txt */,
+				1BEADA102C7DF4610068F5E0 /* progress.make */,
+			);
+			path = demo_library.dir;
+			sourceTree = "<group>";
+		};
+		1BEADA122C7DF4610068F5E0 /* pkgRedirects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pkgRedirects;
+			sourceTree = "<group>";
+		};
+		1BEADA1A2C7DF4610068F5E0 /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA032C7DF4610068F5E0 /* 3.29.0 */,
+				1BEADA042C7DF4610068F5E0 /* CMakeScratch */,
+				1BEADA112C7DF4610068F5E0 /* demo_library.dir */,
+				1BEADA122C7DF4610068F5E0 /* pkgRedirects */,
+				1BEADA132C7DF4610068F5E0 /* cmake.check_cache */,
+				1BEADA142C7DF4610068F5E0 /* CMakeConfigureLog.yaml */,
+				1BEADA152C7DF4610068F5E0 /* CMakeDirectoryInformation.cmake */,
+				1BEADA162C7DF4610068F5E0 /* Makefile.cmake */,
+				1BEADA172C7DF4610068F5E0 /* Makefile2 */,
+				1BEADA182C7DF4610068F5E0 /* progress.marks */,
+				1BEADA192C7DF4610068F5E0 /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		1BEADA1F2C7DF4610068F5E0 /* cmake-build-macos */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA1A2C7DF4610068F5E0 /* CMakeFiles */,
+				1BEADA1B2C7DF4610068F5E0 /* cmake_install.cmake */,
+				1BEADA1C2C7DF4610068F5E0 /* CMakeCache.txt */,
+				1BEADA1D2C7DF4610068F5E0 /* libdemo_library.a */,
+				1BEADA1E2C7DF4610068F5E0 /* Makefile */,
+			);
+			path = "cmake-build-macos";
+			sourceTree = "<group>";
+		};
+		1BEADA212C7DF4610068F5E0 /* ISSUE_TEMPLATE */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA202C7DF4610068F5E0 /* bug_report.md */,
+			);
+			path = ISSUE_TEMPLATE;
+			sourceTree = "<group>";
+		};
+		1BEADA292C7DF4610068F5E0 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA222C7DF4610068F5E0 /* catalyst.yml */,
+				1BEADA232C7DF4610068F5E0 /* combined.yml */,
+				1BEADA242C7DF4610068F5E0 /* ios.yml */,
+				1BEADA252C7DF4610068F5E0 /* macos.yml */,
+				1BEADA262C7DF4610068F5E0 /* tvos.yml */,
+				1BEADA272C7DF4610068F5E0 /* visionos.yml */,
+				1BEADA282C7DF4610068F5E0 /* watchos.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		1BEADA2C2C7DF4610068F5E0 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA212C7DF4610068F5E0 /* ISSUE_TEMPLATE */,
+				1BEADA292C7DF4610068F5E0 /* workflows */,
+				1BEADA2A2C7DF4610068F5E0 /* build.sh */,
+				1BEADA2B2C7DF4610068F5E0 /* FUNDING.yml */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		1BEADA382C7DF4610068F5E0 /* example-app */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA2D2C7DF4610068F5E0 /* AppDelegate.h */,
+				1BEADA2E2C7DF4610068F5E0 /* AppDelegate.m */,
+				1BEADA2F2C7DF4610068F5E0 /* Assets.xcassets */,
+				1BEADA302C7DF4610068F5E0 /* Info.plist */,
+				1BEADA322C7DF4610068F5E0 /* LaunchScreen.storyboard */,
+				1BEADA332C7DF4610068F5E0 /* main.m */,
+				1BEADA352C7DF4610068F5E0 /* Main.storyboard */,
+				1BEADA362C7DF4610068F5E0 /* ViewController.h */,
+				1BEADA372C7DF4610068F5E0 /* ViewController.m */,
+			);
+			path = "example-app";
+			sourceTree = "<group>";
+		};
+		1BEADA3B2C7DF4610068F5E0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA392C7DF4610068F5E0 /* HelloWorld.hpp */,
+				1BEADA3A2C7DF4610068F5E0 /* HelloWorldIOS.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1BEADA3E2C7DF4610068F5E0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA3C2C7DF4610068F5E0 /* helloworld */,
+				1BEADA3D2C7DF4610068F5E0 /* libexample.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1BEADA3F2C7DF4610068F5E0 /* example-lib */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA3B2C7DF4610068F5E0 /* include */,
+				1BEADA3E2C7DF4610068F5E0 /* lib */,
+			);
+			path = "example-lib";
+			sourceTree = "<group>";
+		};
+		1BEADA412C7DF4610068F5E0 /* example-app */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA382C7DF4610068F5E0 /* example-app */,
+				1BEADA3F2C7DF4610068F5E0 /* example-lib */,
+				1BEADA402C7DF4610068F5E0 /* example-app.xcodeproj */,
+			);
+			path = "example-app";
+			sourceTree = "<group>";
+		};
+		1BEADA432C7DF4610068F5E0 /* example-curl */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA422C7DF4610068F5E0 /* CMakeLists.txt */,
+			);
+			path = "example-curl";
+			sourceTree = "<group>";
+		};
+		1BEADA4A2C7DF4610068F5E0 /* example-lib */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA442C7DF4610068F5E0 /* CMakeLists.txt */,
+				1BEADA452C7DF4610068F5E0 /* HelloWorld.cpp */,
+				1BEADA462C7DF4610068F5E0 /* HelloWorld.hpp */,
+				1BEADA472C7DF4610068F5E0 /* HelloWorldIOS.h */,
+				1BEADA482C7DF4610068F5E0 /* HelloWorldIOS.mm */,
+				1BEADA492C7DF4610068F5E0 /* main.cpp */,
+			);
+			path = "example-lib";
+			sourceTree = "<group>";
+		};
+		1BEADA4B2C7DF4610068F5E0 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA412C7DF4610068F5E0 /* example-app */,
+				1BEADA432C7DF4610068F5E0 /* example-curl */,
+				1BEADA4A2C7DF4610068F5E0 /* example-lib */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		1BEADA502C7DF4610068F5E0 /* ios-cmake */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA2C2C7DF4610068F5E0 /* .github */,
+				1BEADA4B2C7DF4610068F5E0 /* example */,
+				1BEADA4C2C7DF4610068F5E0 /* .gitignore */,
+				1BEADA4D2C7DF4610068F5E0 /* ios.toolchain.cmake */,
+				1BEADA4E2C7DF4610068F5E0 /* LICENSE.md */,
+				1BEADA4F2C7DF4610068F5E0 /* README.md */,
+			);
+			path = "ios-cmake";
+			sourceTree = "<group>";
+		};
+		1BEADA552C7DF4610068F5E0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAD9F52C7DF4610068F5E0 /* cmake-build-debug */,
+				1BEADA1F2C7DF4610068F5E0 /* cmake-build-macos */,
+				1BEADA502C7DF4610068F5E0 /* ios-cmake */,
+				1BEADA512C7DF4610068F5E0 /* .gitignore */,
+				1BEADA522C7DF4610068F5E0 /* CMakeLists.txt */,
+				1BEADA532C7DF4610068F5E0 /* flutter_native_example.cc */,
+				1BEADA542C7DF4610068F5E0 /* flutter_native_example.h */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		1BEADA562C7DF4610068F5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEADA5A2C7DF4610068F5E0 /* example-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		331C80D6294CF71000263BE5 /* RunnerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +677,7 @@
 		33CC10E42044A3C60003C045 = {
 			isa = PBXGroup;
 			children = (
+				1BEADA552C7DF4610068F5E0 /* src */,
 				33FAB671232836740065AC1E /* Runner */,
 				33CEB47122A05771004F2AC0 /* Flutter */,
 				331C80D6294CF71000263BE5 /* RunnerTests */,
@@ -293,6 +839,12 @@
 			mainGroup = 33CC10E42044A3C60003C045;
 			productRefGroup = 33CC10EE2044A3C60003C045 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BEADA562C7DF4610068F5E0 /* Products */;
+					ProjectRef = 1BEADA402C7DF4610068F5E0 /* example-app.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				33CC10EC2044A3C60003C045 /* Runner */,
@@ -301,6 +853,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BEADA5A2C7DF4610068F5E0 /* example-app.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "example-app.app";
+			remoteRef = 1BEADA592C7DF4610068F5E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		331C80D3294CF70F00263BE5 /* Resources */ = {
@@ -458,6 +1020,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1BEADA322C7DF4610068F5E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEADA312C7DF4610068F5E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BEADA352C7DF4610068F5E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEADA342C7DF4610068F5E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		33CC10F42044A3C60003C045 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

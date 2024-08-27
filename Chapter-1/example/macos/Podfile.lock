@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: Flutter/ephemeral
 
 SPEC CHECKSUMS:
-  flutter_native_example: 0f1fc5755125f231be8d2c29df5d78e271c60422
+  flutter_native_example: ed108b752ca5722a8dc956dfa3a65b5ae728a83f
   FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
 
 PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367

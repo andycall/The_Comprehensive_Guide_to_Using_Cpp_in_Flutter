@@ -42,7 +42,7 @@ endif()
 
 When the build targets the macOS or iOS platform, we set the library type to a static library.
 
-Then, add the following shell script named `build_ios_macos.sh` to build our static library:
+Then, add the following shell script named `build_macos.sh` or `build_ios.sh` to build our static library:
 
 ```bash
 # Define the function for macOS build
@@ -56,10 +56,10 @@ build_macos() {
 build_macos "$@"
 ```
 
-Run the following command: `./build_ios_macos.sh macos Release` or `./build_ios_macos.sh macos Debug` for debug purposes.
+Run the following command: `./build_macos.sh Release` or `./build_macos.sh Debug` for debug purposes.
 
 ```
-➜  src ./build_ios_macos.sh macos Release
+➜  src ./build_macos.sh Release
 Building for macOS in Release mode
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
@@ -76,10 +76,13 @@ We can see that `libdemo_library.a` was generated at `<project>/src/cmake-build-
 Now, open `<project>/macos/flutter_native_example.podspec` and add a "Script Phase" to call the CMake command automatically when the user executes the `flutter run` or `flutter build` command.
 
 ```ruby
+s.prepare_command = 'bash build_macos.sh'
 s.script_phase = {
-  :name => 'Build Native Library',
-  :script => 'bash "' + __dir__ + '/../src/build_ios_macos.sh" macos $CONFIGURATION',
-  :execution_position => :before_compile,
+  :name => 'Trigger Native Build',
+  # First argument is relative path to the `rust` folder, second is name of rust library
+  :script => 'ln -fs "$OBJROOT/XCBuildData/build.db" "${BUILT_PRODUCTS_DIR}/build_phony"',
+  :execution_position=> :before_compile,
+  :input_files => ['${BUILT_PRODUCTS_DIR}/build_phony'],
   :output_files => [__dir__ + "/../src/cmake-build-macos/libdemo_library.a"],
 }
 s.pod_target_xcconfig = {
@@ -118,13 +121,13 @@ git subtree add --prefix src/ios-cmake https://github.com/leetal/ios-cmake.git m
 # Define the function for iOS build
 build_ios() {
   BUILD_TYPE="${1:-Debug}"
-  echo "Building for iOS in $BUILD_TYPE mode"
+  echo "Building for iOS with $BUILD_TYPE mode"
   cmake -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=$BASEDIR/ios-cmake/ios.toolchain.cmake -G "Xcode" -B $BASEDIR/cmake-build-ios -S $BASEDIR/
   cmake --build $BASEDIR/cmake-build-ios --config $BUILD_TYPE
 }
 ```
 
-Run the following command: `./build_ios_macos.sh ios Release` or `./build_ios_macos.sh ios Debug` for debug purposes.
+Run the following command: `./build_ios.sh Release` or `./build_ios.sh ios Debug` for debug purposes.
 
 The static library will be located in `<project>/src/cmake-build-ios/Debug-iphoneos` with a Debug build and `<project>/src/cmake-build-ios/Release-iphoneos` with a Release build variant.
 
@@ -133,14 +136,17 @@ The static library will be located in `<project>/src/cmake-build-ios/Debug-iphon
 Now it's time to modify `<project>/ios/flutter_native_example.podspec` to add the build phase and connect our scripts with the CocoaPods build.
 
 ```ruby
+s.prepare_command = 'bash build_ios.sh'
 s.script_phase = {
-  :name => 'Build Native Library',
-  :script => 'bash "' + __dir__ + '/../src/build_ios_macos.sh" ios $CONFIGURATION',
-  :execution_position => :before_compile,
+  :name => 'Trigger Native Build',
+  # First argument is relative path to the `rust` folder, second is name of rust library
+  :script => 'ln -fs "$OBJROOT/XCBuildData/build.db" "${BUILT_PRODUCTS_DIR}/build_phony"',
+  :execution_position=> :before_compile,
+  :input_files => ['${BUILT_PRODUCTS_DIR}/build_phony'],
   :output_files => [__dir__ + "/../src/cmake-build-ios/$CONFIGURATION-iphoneos/libdemo_library.a"],
 }
 
-# Flutter.framework does not contain an i386 slice.
+# Flutter.framework does not contain a i386 slice.
 s.pod_target_xcconfig = {
   'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386',
   'OTHER_LDFLAGS' => '-force_load ' + __dir__ + '/../src/cmake-build-ios/$CONFIGURATION-iphoneos/libdemo_library.a',

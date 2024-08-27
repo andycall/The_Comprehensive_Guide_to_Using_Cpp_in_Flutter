@@ -22,13 +22,14 @@ A new Flutter FFI plugin project.
   s.dependency 'FlutterMacOS'
   s.platform = :osx, '10.11'
   s.library = 'c++'
+  s.prepare_command = 'bash build_macos.sh'
   s.script_phase = {
-    :name => 'Build Native library',
+    :name => 'Trigger Native Build',
     # First argument is relative path to the `rust` folder, second is name of rust library
-    :script => 'bash "' + __dir__ + '/../src/build_ios_macos.sh" macos $CONFIGURATION',
+    :script => 'ln -fs "$OBJROOT/XCBuildData/build.db" "${BUILT_PRODUCTS_DIR}/build_phony"',
     :execution_position=> :before_compile,
-   :input_files => ['${BUILT_PRODUCTS_DIR}/build_phony'],
-   :output_files => [__dir__ + "/../src/cmake-build-macos/libdemo_library.a"],
+    :input_files => ['${BUILT_PRODUCTS_DIR}/build_phony'],
+    :output_files => [__dir__ + "/../src/cmake-build-macos/libdemo_library.a"],
   }
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES',

@@ -21,11 +21,11 @@ A new Flutter FFI plugin project.
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
-
+  s.prepare_command = 'bash build_ios.sh'
   s.script_phase = {
-    :name => 'Build Native library',
+    :name => 'Trigger Native Build',
     # First argument is relative path to the `rust` folder, second is name of rust library
-    :script => 'bash "' + __dir__ + '/../src/build_ios_macos.sh" ios $CONFIGURATION',
+    :script => 'ln -fs "$OBJROOT/XCBuildData/build.db" "${BUILT_PRODUCTS_DIR}/build_phony"',
     :execution_position=> :before_compile,
     :input_files => ['${BUILT_PRODUCTS_DIR}/build_phony'],
     :output_files => [__dir__ + "/../src/cmake-build-ios/$CONFIGURATION-iphoneos/libdemo_library.a"],
