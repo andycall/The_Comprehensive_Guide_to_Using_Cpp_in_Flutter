@@ -1,90 +1,113 @@
-# Setting up an Develop and Debugging Environment for your C/C++ project with Flutter Apps —- Guide Part II
+# Setting Up a Development and Debugging Environment for Your C/C++ Project with Flutter Apps — Guide Part II
 
-For an flutter app developments, it's easy to set up an development and debugger environment with Dart using Code or Jetbrains IDE. 
+For Flutter app development, it's easy to set up a development and debugging environment with Dart using VS Code or JetBrains IDE. 
 
-But using C/C++ in Flutter, things will be more different, because the offical Dart & Flutter IDE plugins was not designed for C/C++ developments.
+However, when using C/C++ in Flutter, things are different because the official Dart & Flutter IDE plugins are not designed for C/C++ development.
 
-For developing and debugging C/C++ in multiple variaty of operation systems, we needs to config and step up different IDE for each of platforms as follows:
+To develop and debug C/C++ on multiple operating systems, we need to configure and set up different IDEs for each platform as follows:
 
-They are many develop environments for C/C++ projects. We can use Xcode for iOS and macOS, Android Studio for Android, Visual Studio for Windows and other IDE tools for Linux platforms.
+There are many development environments for C/C++ projects. We can use Xcode for iOS and macOS, Android Studio for Android, Visual Studio for Windows, and other IDE tools for Linux platforms.
 
-In my personal working experience, the best development IDE that I had used for most of the time is JetBrains's Clion, which providing the universal development experiences for each platforms. 
+In my personal experience, the best development IDE I have used most often is JetBrains' CLion, which provides a consistent development experience across platforms.
 
-For developers who using C/C++ in Flutter apps, it's normal to deploy and sharing the same code base for all platform with different operating system and CPU archs. For using the same IDE, it's more convenient for reusing your experiences for using these tools.
+For developers using C/C++ in Flutter apps, it's common to deploy and share the same codebase across different platforms with various operating systems and CPU architectures. Using the same IDE makes it more convenient to reuse your experience with these tools.
 
-## Config your C/C++ project with Clion
+## Configuring Your C/C++ Project with CLion
 
-Clion has built-in support for CMake projects, to setup Clion with intellisense, you needs to open the project fold which contains the `CMakeLists.txt` file, it our example project, that will be `<project_root>/src`:
+CLion has built-in support for CMake projects. To set up CLion with IntelliSense, you need to open the project folder that contains the `CMakeLists.txt` file. In our example project, that will be `<project_root>/src`:
 
 ![setup_clion](./imgs/setup_clion.png)
 
-The clion will config your C/C++ projects based on your CMake config automatically. 
+CLion will configure your C/C++ projects based on your CMake configuration automatically.
 
-### Debugging your Flutter Apps with Clion
+### Debugging Your Flutter Apps with CLion
 
-It's easier to debugging and Flutter apps with Clion on desktop platforms, including macOS, Windows and Linux.
+It's easier to debug Flutter apps with CLion on desktop platforms, including macOS, Windows, and Linux.
 
-It's also recommend to developing your C/C++ codes on desktop first, then cross-compile them and running on mobile platforms.
+It's also recommended to develop your C/C++ code on a desktop first, then cross-compile it and run it on mobile platforms.
 
-**Start an Flutter apps with Clion LLDB Debugger**
+**Starting a Flutter App with CLion LLDB Debugger**
 
-At first, you needs to compile your flutter apps:
+First, you need to compile your Flutter app:
 
 ```bash
 flutter build macos --debug
 ```
 
-After your flutter apps compiled, the app will generated at `<project_root>/example/build/macos/Build/Products/Debug/flutter_native_example_example.app`.
+After your Flutter app is compiled, the app will be generated at `<project_root>/example/build/macos/Build/Products/Debug/flutter_native_example_example.app`.
 
-> For Linux or Windows platform, just looking for your flutter apps located under `<project_root>/example/build/` directory.
+> For Linux or Windows platforms, just look for your Flutter app under the `<project_root>/example/build/` directory.
 
-**Add an Debugger configuration in Clion**
+**Adding a Debugger Configuration in CLion**
 
-Open your Clion, click the `Editr Configurations` selection menu on the top:
-
+Open CLion, click the `Edit Configurations` selection menu at the top:
 
 ![Edit Configuration](./imgs/add%20config.png)
 
-Click the `+` button on top left, and select the `Native Application`:
+Click the `+` button on the top left and select `Native Application`:
 
 ![Add native application](./imgs/add_native_application.png)
 
-Remove the default `Build` configure on the middle bottom, and then click dropdown menu with `Executable:` tag:
+Remove the default `Build` configuration at the middle bottom, and then click the dropdown menu with the `Executable:` tag:
 
 ![Add Executable](./imgs/add_executable.png)
 
-Find and select the executable file for your Flutter apps in `<project_root>/example/build/` directory.
+Find and select the executable file for your Flutter app in the `<project_root>/example/build/` directory.
 
 ![Target](./imgs/target.png)
 
 The selection results will be as follows:
 
-![Clion](./imgs/clion_result.png)
+![CLion](./imgs/clion_result.png)
 
-Now it's ready for debugging, Click the debug icon on the topbar to starting your debugging:
+Now it's ready for debugging. Click the debug icon on the top bar to start your debugging:
 
 ![alt text](./imgs/clion_debugging.png)
 
-**Attach an running application with Clion Debugger**
+**Attaching a Running Application with CLion Debugger**
 
-If your application had started earlyer than clion debugger, you can attach an exist running flutter apps with the `Attach To Process` Feature in Clion:
+If your application started earlier than the CLion debugger, you can attach an existing running Flutter app with the `Attach To Process` feature in CLion:
 
 ![Attach To Process](./imgs/clion_attach_to_process.png)
 
-## Debugging C/C++ Codes in XCode
+## Debugging C/C++ Code in Xcode
 
-XCode is an alternative IDE for C/C++ debugging for macOS and iOS platforms, first of all, opening the `Runner.xcworkspace` project in XCode.
+Xcode is an alternative IDE for C/C++ debugging on macOS and iOS platforms. First, open the `Runner.xcworkspace` project in Xcode.
 
-The source codes of our C/C++ codes were not visible in XCode by default, so we needs additional setup to make it visible and allow use setting breakpoint on it:
+The source code of our C/C++ code is not visible in Xcode by default, so we need additional setup to make it visible and allow setting breakpoints on it:
 
-In Xcode, right click at the `Runner` Project, select `Add Files to "Runner"`:
+In Xcode, right-click the `Runner` project and select `Add Files to "Runner"`:
 
 ![Xcode Add File](./imgs/xcode_add_file.png)
 
-Select the source fold that contains `CMakeLists.txt`, but keeping reminds that unselect all targets in the bottom, because we didn't wants XCode to package our C/C++ codes in our project.
+Select the source folder that contains `CMakeLists.txt`, but keep in mind to unselect all targets at the bottom because we don't want Xcode to package our C/C++ code in our project.
 
-![Add Files](image.png)
+![Add Files](./imgs/xcode_select_files.png)
 
-Now we can set breakpoints in xcode and debugging the C++ source codes:
+Now we can set breakpoints in Xcode and debug the C++ source code:
 
-![Debugging in XCode](image-1.png)
+![Debugging in Xcode](./imgs/xcode_debug.png)
+
+## Debugging C/C++ Code in Android Studio
+
+Android Studio for Android has built-in support for developing and debugging C/C++ code.
+
+For a Flutter app for Android, open the `example/android` directory in Android Studio:
+
+![Android Path](./imgs/android_path.png)
+
+Once your project is fully configured in Android Studio, you will see your C/C++ code recognized and indexed by Android Studio.
+
+![Android Studio](./imgs/android_studio.png)
+
+Click the `app` entry point at the top and select "Edit Configuration":
+
+![alt text](./imgs/edit_android_config.png)
+
+Make sure the debug type is set to "Dual (Java + Native)" mode:
+
+![alt text](./imgs/android_debug_mode.png)
+
+Now our C/C++ code can be developed and debugged in Android Studio:
+
+![alt text](./imgs/android_studio_debugging.png)
