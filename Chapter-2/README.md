@@ -1,4 +1,4 @@
-# Setting Up a Development and Debugging Environment for Your C/C++ Project with Flutter Apps — Guide Part II
+# How to Debug Your C/C++ Project in Flutter Apps
 
 For Flutter app development, it's easy to set up a development and debugging environment with Dart using VS Code or JetBrains IDE. 
 
