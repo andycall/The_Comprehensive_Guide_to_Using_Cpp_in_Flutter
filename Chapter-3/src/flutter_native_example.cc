@@ -17,6 +17,15 @@ struct DartReadable {
     return malloc(size);
 #endif
   };
+
+  void* operator new[](size_t size) {
+#if WIN32
+    return CoTaskMemAlloc(size);
+#else
+    return malloc(size);
+#endif
+  }
+
   static void operator delete(void* ptr) noexcept {
 #if WIN32
     return CoTaskMemFree(ptr);
@@ -24,6 +33,15 @@ struct DartReadable {
     return free(ptr);
 #endif
   };
+
+  static void operator delete[](void* ptr) noexcept {
+#if WIN32
+    return CoTaskMemFree(ptr);
+#else
+    return free(ptr);
+#endif
+  };
+
 };
 
 struct UICommand : public DartReadable {
