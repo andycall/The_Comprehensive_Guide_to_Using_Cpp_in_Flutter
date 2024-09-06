@@ -1,25 +1,46 @@
 #include "flutter_native_example.h"
 #include <thread>
 #include <chrono>
+#include <vector>
 #include <iostream>
 
-// A very short-lived native function.
-//
-// For very short-lived functions, it is fine to call them on the main isolate.
-// They will block the Dart execution while running the native function, so
-// only do this for native functions which are guaranteed to be short-lived.
-int sum(int a, int b) {
-  return a + b;
-}
+#if WIN32
+#include <Windows.h>
+#endif
 
-// A longer-lived native function, which occupies the thread calling it.
-//
-// Do not call these kind of native functions in the main isolate. They will
-// block Dart execution. This will cause dropped frames in Flutter applications.
-// Instead, call these native functions on a separate isolate.
-int sum_long_running(int a, int b) {
-  using namespace std::chrono_literals;
-  // Simulate work.
-  std::this_thread::sleep_for(2000ms);
-  return a + b;
+struct DartReadable {
+  // Dart FFI use ole32 as it's allocator, we need to override the default allocator to compact with Dart FFI.
+  static void* operator new(std::size_t size) {
+#if WIN32
+    return CoTaskMemAlloc(size);
+#else
+    return malloc(size);
+#endif
+  };
+  static void operator delete(void* ptr) noexcept {
+#if WIN32
+    return CoTaskMemFree(ptr);
+#else
+    return free(ptr);
+#endif
+  };
+};
+
+struct UICommand : public DartReadable {
+  int64_t data_{0};
+  double f_{0.0};
+  UICommand() {};
+  explicit UICommand(int64_t data, double f): data_(data), f_(f) {};
+};
+
+void* get_ui_command(uint32_t* length) {
+  *length = 10;
+  auto* data = new UICommand[10];
+
+  for (int i = 0; i < 10; i ++) {
+    data[i].data_ = i;
+    data[i].f_ = i + 0.1;
+  }
+
+  return data;
 }

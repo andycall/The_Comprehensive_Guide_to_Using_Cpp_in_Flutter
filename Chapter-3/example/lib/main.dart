@@ -15,20 +15,19 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  late int sumResult;
-  late Future<int> sumAsyncResult;
+  late List<flutter_native_example.UICommand> uiCommands;
 
   @override
   void initState() {
     super.initState();
-    sumResult = flutter_native_example.sum(1, 2);
-    sumAsyncResult = flutter_native_example.sumAsync(3, 4);
+    uiCommands = flutter_native_example.getUICommand();
   }
 
   @override
   Widget build(BuildContext context) {
     const textStyle = TextStyle(fontSize: 25);
     const spacerSmall = SizedBox(height: 10);
+
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
@@ -46,24 +45,14 @@ class _MyAppState extends State<MyApp> {
                   textAlign: TextAlign.center,
                 ),
                 spacerSmall,
-                Text(
-                  'sum(1, 2) = $sumResult',
-                  style: textStyle,
-                  textAlign: TextAlign.center,
-                ),
+                ...uiCommands.map((command) {
+                  return Text(
+                    'UICommand[${command.data}] = (${command.data}, ${command.f})',
+                    style: textStyle,
+                    textAlign: TextAlign.center,
+                  );
+                }),
                 spacerSmall,
-                FutureBuilder<int>(
-                  future: sumAsyncResult,
-                  builder: (BuildContext context, AsyncSnapshot<int> value) {
-                    final displayValue =
-                        (value.hasData) ? value.data : 'loading';
-                    return Text(
-                      'await sumAsync(3, 4) = $displayValue',
-                      style: textStyle,
-                      textAlign: TextAlign.center,
-                    );
-                  },
-                ),
               ],
             ),
           ),
