@@ -6,6 +6,7 @@ This guide is designed for mobile/desktop developers who want to integrate C/C++
 
 + [Chapter 1: Adding C/C++ to your Flutter plugin](./Chapter-1/)
 + [Chapter 2: How to Debug Your C/C++ Project in Flutter Apps](./Chapter-2/)
++ [Chapter 3: Memory Management in Dart FFI](./Chapter-3/)
 
 
 ## License
