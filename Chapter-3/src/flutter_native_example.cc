@@ -8,40 +8,39 @@
 #include <Windows.h>
 #endif
 
+static void* dart_malloc(std::size_t size) {
+#if WIN32
+  return CoTaskMemAlloc(size);
+#else
+  return malloc(size);
+#endif
+}
+
+static void dart_free(void* ptr) {
+#if WIN32
+  return CoTaskMemFree(ptr);
+#else
+  return free(ptr);
+#endif
+}
+
 struct DartReadable {
   // Dart FFI use ole32 as it's allocator, we need to override the default allocator to compact with Dart FFI.
   static void* operator new(std::size_t size) {
-#if WIN32
-    return CoTaskMemAlloc(size);
-#else
-    return malloc(size);
-#endif
+    return dart_malloc(size);
   };
 
   void* operator new[](size_t size) {
-#if WIN32
-    return CoTaskMemAlloc(size);
-#else
-    return malloc(size);
-#endif
+    return dart_malloc(size);
   }
 
   static void operator delete(void* ptr) noexcept {
-#if WIN32
-    return CoTaskMemFree(ptr);
-#else
-    return free(ptr);
-#endif
+    dart_free(ptr);
   };
 
   static void operator delete[](void* ptr) noexcept {
-#if WIN32
-    return CoTaskMemFree(ptr);
-#else
-    return free(ptr);
-#endif
+    dart_free(ptr);
   };
-
 };
 
 struct UICommand : public DartReadable {
